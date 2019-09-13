@@ -1,0 +1,25 @@
+{
+    "files": [
+        {
+            "path": "gameplay\\gui_new\\icons\\inventory\\mutagens\\mutagen_dagon.png",
+            "level": 0,
+            "seed": 1,
+            "consumed": 1,
+            "id": "5C7D7D76-7AE60506-2AF244E9-8B132158"
+        },
+        {
+            "path": "gameplay\\gui_new\\icons\\inventory\\mutagens\\mutagen_djinn.png",
+            "level": 0,
+            "seed": 1,
+            "consumed": 1,
+            "id": "AE9EE93D-2D643DAA-D323FABC-27B51BAE"
+        },
+        {
+            "path": "gameplay\\gui_new\\icons\\inventory\\mutagens\\mutagen_white_wolf.png",
+            "level": 0,
+            "seed": 1,
+            "consumed": 1,
+            "id": "71284ED3-05459EDD-07358DF8-994A5145"
+        }
+    ]
+}

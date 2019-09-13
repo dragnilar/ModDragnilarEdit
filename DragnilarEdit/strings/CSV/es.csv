@@ -1,0 +1,10 @@
+;meta[language=es]
+; id | key(hex) | key(str) | text
+2119878000|85E8FBD1|skill_desc_wolf_set_ability1|Fast Attacks increase Strong Attack damage for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
+2119878001|85E8FBD2|skill_desc_wolf_set_ability2|The overall spell power of all Signs is increased by 5%.
+2119878002|EFA7F95B|item_name_wolfschool_crossbow|Wolf School Crossbow
+2119878003|B4257FD1|item_name_excalibur_ep2|Excalibur
+2119878004|6F269715|item_name_greater_white_wolf|White Wolf Mutagen
+2119878005|B77E945C|item_name_greater_dagon|Dagon Mutagen
+2119878006|B782B316|item_name_greater_djinn|Djinn Mutagen
+
