@@ -14,4 +14,5 @@ These are the following mods that I merged into my own and then may or may not h
 <li>Slots Slots Slots (done to consolodate mods and simplify merging)</li>
 <li>Jump in Shallow Water (simply done to consolodate mods)</li>
 <li>Increased Running/Sprint Speed (scripts are only used for the Werewolf Decoction).</li>
+<li>Additional Alchemy (merged due to script conflicts/tweaks made to the mod itself).</li>
 </list>
