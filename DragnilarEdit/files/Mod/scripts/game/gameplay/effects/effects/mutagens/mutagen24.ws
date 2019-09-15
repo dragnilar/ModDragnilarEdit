@@ -13,7 +13,7 @@ class W3Mutagen24_Effect extends W3Mutagen_Effect
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
 	{	
 		super.OnEffectAdded( customParams );	
-		thePlayer.SetSprintingSpeed(2.0);
+		thePlayer.SetSprintingSpeed(1.9);
 	}
 
 	event OnEffectRemoved()
