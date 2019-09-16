@@ -21,6 +21,7 @@ class W3Mutagen24_Effect extends W3Mutagen_Effect
 			
 		thePlayer.SetSprintingSpeed(1.6);
 		super.OnEffectRemoved();
+		target.RemoveAbilityAll(abilityName);
 	}
 	
 }
