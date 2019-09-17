@@ -1,6 +1,6 @@
-//***********************************************************************/
-/** 	Â© 2015 CD PROJEKT S.A. All rights reserved.
-/** 	THE WITCHERÂ® is a trademark of CD PROJEKT S. A.
+/***********************************************************************/
+/** 	© 2015 CD PROJEKT S.A. All rights reserved.
+/** 	THE WITCHER® is a trademark of CD PROJEKT S. A.
 /** 	The Witcher game is based on the prose of Andrzej Sapkowski.
 /***********************************************************************/
 
@@ -908,7 +908,7 @@ import class W3GameParams extends CObject
 		}		
 	}	
 	    
-  	public function GetItemLevel(itemCategory : name, itemAttributes : array<SAbilityAttributeValue>, optional itemName : name, optional out baseItemLevel : int) : int
+  	public function GetItemLevel(itemCategory : name, itemAttributes : array<SAbilityAttributeValue>, optional itemName : name, optional willQualityAdjust : bool) : int
 	{
 		var stat : SAbilityAttributeValue;
 		var stat_f : float;
@@ -1003,9 +1003,9 @@ import class W3GameParams extends CObject
 			if ( stat.valueMultiplicative > 1.9 ) level = 32;
 		} 
 		level = level - 1;
-		if ( level < 1 ) level = 1;	
-		baseItemLevel = level;
-		if ( level > GetWitcherPlayer().GetMaxLevel() ) level = GetWitcherPlayer().GetMaxLevel();
+		if (!willQualityAdjust) { // modScalingArmors
+			if ( level < 1 ) level = 1;	if ( level > GetWitcherPlayer().GetMaxLevel() ) level = GetWitcherPlayer().GetMaxLevel();
+		}
 		
 		return level;
 	}
