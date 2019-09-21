@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+   
+    <Group id="esoGeneral" displayName="Mods.EnemyScalingOverhaul.esoGeneral">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla">
+				<Entry varId="esoScale" value="0" />
+				<Entry varId="esoUpscale" value="0" />
+				<Entry varId="esoScaleType" value="0" />
+				<Entry varId="esoEnemyBonus" value="1" />
+				<Entry varId="esoGuardBonus" value="1" />
+				<Entry varId="esoContractAdd" value="0" />
+				<Entry varId="esoBossAdd" value="0" />
+				<Entry varId="esoXPScale" value="0" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="esoScale" value="1" />
+				<Entry varId="esoUpscale" value="0" />
+				<Entry varId="esoScaleType" value="2" />
+				<Entry varId="esoEnemyBonus" value="0" />
+				<Entry varId="esoGuardBonus" value="0" />
+				<Entry varId="esoContractAdd" value="3" />
+				<Entry varId="esoBossAdd" value="5" />
+				<Entry varId="esoXPScale" value="1" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoScale" displayName="esoScale" displayType="TOGGLE" />
+			<Var id="esoUpscale" displayName="esoUpscale" displayType="TOGGLE" />
+			<Var id="esoScaleType" displayName="esoScaleType" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="esoSimple">
+						<Entry varId="esoType" value="0"/>
+					</Option>
+					<Option id="1" displayName="esoDynamic">
+						<Entry varId="esoType" value="1"/>
+					</Option>
+					<Option id="2" displayName="esoGroup">
+						<Entry varId="esoType" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="esoEnemyBonus" displayName="esoEnemyBonus" displayType="TOGGLE" />
+			<Var id="esoGuardBonus" displayName="esoGuardBonus" displayType="TOGGLE" />
+			<Var id="esoContractAdd" displayName="esoContractBonusLevels" displayType="SLIDER;0;15;15" />
+			<Var id="esoBossAdd" displayName="esoBossBonusLevels" displayType="SLIDER;0;15;15" />
+			<Var id="esoXPScale" displayName="esoXPScale" displayType="TOGGLE" />
+		</VisibleVars>
+    </Group>
+	
+	<Group id="esoSimpleScaling" displayName="Mods.EnemyScalingOverhaul.esoSimpleScaling">
+		<PresetsArray>
+			<Preset id="0" displayName="esoEasy">
+				<Entry varId="esoSimpleMin" value="-5" />
+				<Entry varId="esoSimpleMax" value="0" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="esoSimpleMin" value="-3" />
+				<Entry varId="esoSimpleMax" value="3" />
+			</Preset>
+			<Preset id="2" displayName="esoHard">
+				<Entry varId="esoSimpleMin" value="0" />
+				<Entry varId="esoSimpleMax" value="5" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoSimpleMin" displayName="esoSimpleMin" displayType="SLIDER;-15;15;30"/>
+			<Var id="esoSimpleMax" displayName="esoSimpleMax" displayType="SLIDER;-15;15;30"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoDynamicScalingHuman" displayName="Mods.EnemyScalingOverhaul.esoDynamicScaling.esoDynamicHuman">
+		<PresetsArray>
+			<Preset id="0" displayName="esoEasy">
+				<Entry varId="HumanTier1Min" value="-2" />
+				<Entry varId="HumanTier1Max" value="-1" />
+				<Entry varId="HumanTier2Min" value="-3" />
+				<Entry varId="HumanTier2Max" value="-1" />
+				<Entry varId="HumanTier3Min" value="-4" />
+				<Entry varId="HumanTier3Max" value="-2" />
+				<Entry varId="HumanTier4Min" value="-5" />
+				<Entry varId="HumanTier4Max" value="-3" />
+				<Entry varId="HumanTier5Min" value="-6" />
+				<Entry varId="HumanTier5Max" value="-3" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="HumanTier1Min" value="-1" />
+				<Entry varId="HumanTier1Max" value="0" />
+				<Entry varId="HumanTier2Min" value="-2" />
+				<Entry varId="HumanTier2Max" value="0" />
+				<Entry varId="HumanTier3Min" value="-3" />
+				<Entry varId="HumanTier3Max" value="0" />
+				<Entry varId="HumanTier4Min" value="-4" />
+				<Entry varId="HumanTier4Max" value="0" />
+				<Entry varId="HumanTier5Min" value="-5" />
+				<Entry varId="HumanTier5Max" value="0" />
+			</Preset>
+			<Preset id="2" displayName="esoHard">
+				<Entry varId="HumanTier1Min" value="0" />
+				<Entry varId="HumanTier1Max" value="1" />
+				<Entry varId="HumanTier2Min" value="0" />
+				<Entry varId="HumanTier2Max" value="2" />
+				<Entry varId="HumanTier3Min" value="1" />
+				<Entry varId="HumanTier3Max" value="3" />
+				<Entry varId="HumanTier4Min" value="2" />
+				<Entry varId="HumanTier4Max" value="4" />
+				<Entry varId="HumanTier5Min" value="3" />
+				<Entry varId="HumanTier5Max" value="6" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="HumanTier1Min" displayName="Tier1Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="HumanTier1Max" displayName="Tier1Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="HumanTier2Min" displayName="Tier2Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="HumanTier2Max" displayName="Tier2Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="HumanTier3Min" displayName="Tier3Min" displayType="SLIDER;-15;15;30"/>
+			<Var id="HumanTier3Max" displayName="Tier3Max" displayType="SLIDER;-15;15;30"/>
+			<Var id="HumanTier4Min" displayName="Tier4Min" displayType="SLIDER;-20;20;40"/>
+			<Var id="HumanTier4Max" displayName="Tier4Max" displayType="SLIDER;-20;20;40"/>
+			<Var id="HumanTier5Min" displayName="Tier5Min" displayType="SLIDER;-25;25;50"/>
+			<Var id="HumanTier5Max" displayName="Tier5Max" displayType="SLIDER;-25;25;50"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoDynamicScalingBeast" displayName="Mods.EnemyScalingOverhaul.esoDynamicScaling.esoDynamicBeast">
+		<PresetsArray>
+			<Preset id="0" displayName="esoEasy">
+				<Entry varId="BeastTier1Min" value="-3" />
+				<Entry varId="BeastTier1Max" value="-1" />
+				<Entry varId="BeastTier2Min" value="-4" />
+				<Entry varId="BeastTier2Max" value="-2" />
+				<Entry varId="BeastTier3Min" value="-5" />
+				<Entry varId="BeastTier3Max" value="-3" />
+				<Entry varId="BeastTier4Min" value="-6" />
+				<Entry varId="BeastTier4Max" value="-3" />
+				<Entry varId="BeastTier5Min" value="-7" />
+				<Entry varId="BeastTier5Max" value="-4" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="BeastTier1Min" value="-2" />
+				<Entry varId="BeastTier1Max" value="-1" />
+				<Entry varId="BeastTier2Min" value="-3" />
+				<Entry varId="BeastTier2Max" value="-1" />
+				<Entry varId="BeastTier3Min" value="-4" />
+				<Entry varId="BeastTier3Max" value="-2" />
+				<Entry varId="BeastTier4Min" value="-5" />
+				<Entry varId="BeastTier4Max" value="-2" />
+				<Entry varId="BeastTier5Min" value="-6" />
+				<Entry varId="BeastTier5Max" value="-3" />
+			</Preset>
+			<Preset id="2" displayName="esoHard">
+				<Entry varId="BeastTier1Min" value="0" />
+				<Entry varId="BeastTier1Max" value="1" />
+				<Entry varId="BeastTier2Min" value="0" />
+				<Entry varId="BeastTier2Max" value="2" />
+				<Entry varId="BeastTier3Min" value="0" />
+				<Entry varId="BeastTier3Max" value="3" />
+				<Entry varId="BeastTier4Min" value="1" />
+				<Entry varId="BeastTier4Max" value="4" />
+				<Entry varId="BeastTier5Min" value="2" />
+				<Entry varId="BeastTier5Max" value="5" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="BeastTier1Min" displayName="Tier1Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="BeastTier1Max" displayName="Tier1Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="BeastTier2Min" displayName="Tier2Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="BeastTier2Max" displayName="Tier2Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="BeastTier3Min" displayName="Tier3Min" displayType="SLIDER;-15;15;30"/>
+			<Var id="BeastTier3Max" displayName="Tier3Max" displayType="SLIDER;-15;15;30"/>
+			<Var id="BeastTier4Min" displayName="Tier4Min" displayType="SLIDER;-20;20;40"/>
+			<Var id="BeastTier4Max" displayName="Tier4Max" displayType="SLIDER;-20;20;40"/>
+			<Var id="BeastTier5Min" displayName="Tier5Min" displayType="SLIDER;-25;25;50"/>
+			<Var id="BeastTier5Max" displayName="Tier5Max" displayType="SLIDER;-25;25;50"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoDynamicScalingMonster" displayName="Mods.EnemyScalingOverhaul.esoDynamicScaling.esoDynamicMonster">
+		<PresetsArray>
+			<Preset id="0" displayName="esoEasy">
+				<Entry varId="MonsterTier1Min" value="-1" />
+				<Entry varId="MonsterTier1Max" value="0" />
+				<Entry varId="MonsterTier2Min" value="-2" />
+				<Entry varId="MonsterTier2Max" value="0" />
+				<Entry varId="MonsterTier3Min" value="-3" />
+				<Entry varId="MonsterTier3Max" value="0" />
+				<Entry varId="MonsterTier4Min" value="-3" />
+				<Entry varId="MonsterTier4Max" value="-1" />
+				<Entry varId="MonsterTier5Min" value="-4" />
+				<Entry varId="MonsterTier5Max" value="-2" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="MonsterTier1Min" value="0" />
+				<Entry varId="MonsterTier1Max" value="1" />
+				<Entry varId="MonsterTier2Min" value="0" />
+				<Entry varId="MonsterTier2Max" value="2" />
+				<Entry varId="MonsterTier3Min" value="1" />
+				<Entry varId="MonsterTier3Max" value="3" />
+				<Entry varId="MonsterTier4Min" value="1" />
+				<Entry varId="MonsterTier4Max" value="4" />
+				<Entry varId="MonsterTier5Min" value="2" />
+				<Entry varId="MonsterTier5Max" value="4" />
+			</Preset>
+			<Preset id="2" displayName="esoHard">
+				<Entry varId="MonsterTier1Min" value="1" />
+				<Entry varId="MonsterTier1Max" value="2" />
+				<Entry varId="MonsterTier2Min" value="1" />
+				<Entry varId="MonsterTier2Max" value="3" />
+				<Entry varId="MonsterTier3Min" value="2" />
+				<Entry varId="MonsterTier3Max" value="4" />
+				<Entry varId="MonsterTier4Min" value="3" />
+				<Entry varId="MonsterTier4Max" value="5" />
+				<Entry varId="MonsterTier5Min" value="4" />
+				<Entry varId="MonsterTier5Max" value="7" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="MonsterTier1Min" displayName="Tier1Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="MonsterTier1Max" displayName="Tier1Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="MonsterTier2Min" displayName="Tier2Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="MonsterTier2Max" displayName="Tier2Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="MonsterTier3Min" displayName="Tier3Min" displayType="SLIDER;-15;15;30"/>
+			<Var id="MonsterTier3Max" displayName="Tier3Max" displayType="SLIDER;-15;15;30"/>
+			<Var id="MonsterTier4Min" displayName="Tier4Min" displayType="SLIDER;-20;20;40"/>
+			<Var id="MonsterTier4Max" displayName="Tier4Max" displayType="SLIDER;-20;20;40"/>
+			<Var id="MonsterTier5Min" displayName="Tier5Min" displayType="SLIDER;-25;25;50"/>
+			<Var id="MonsterTier5Max" displayName="Tier5Max" displayType="SLIDER;-25;25;50"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoDynamicScalingGroupMonster" displayName="Mods.EnemyScalingOverhaul.esoDynamicScaling.esoDynamicGroupMonster">
+		<PresetsArray>
+			<Preset id="0" displayName="esoEasy">
+				<Entry varId="GroupMonsterTier1Min" value="-2" />
+				<Entry varId="GroupMonsterTier1Max" value="-1" />
+				<Entry varId="GroupMonsterTier2Min" value="-3" />
+				<Entry varId="GroupMonsterTier2Max" value="-1" />
+				<Entry varId="GroupMonsterTier3Min" value="-4" />
+				<Entry varId="GroupMonsterTier3Max" value="-2" />
+				<Entry varId="GroupMonsterTier4Min" value="-5" />
+				<Entry varId="GroupMonsterTier4Max" value="-3" />
+				<Entry varId="GroupMonsterTier5Min" value="-6" />
+				<Entry varId="GroupMonsterTier5Max" value="-3" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="GroupMonsterTier1Min" value="-1" />
+				<Entry varId="GroupMonsterTier1Max" value="0" />
+				<Entry varId="GroupMonsterTier2Min" value="-2" />
+				<Entry varId="GroupMonsterTier2Max" value="0" />
+				<Entry varId="GroupMonsterTier3Min" value="-3" />
+				<Entry varId="GroupMonsterTier3Max" value="0" />
+				<Entry varId="GroupMonsterTier4Min" value="-4" />
+				<Entry varId="GroupMonsterTier4Max" value="0" />
+				<Entry varId="GroupMonsterTier5Min" value="-5" />
+				<Entry varId="GroupMonsterTier5Max" value="0" />
+			</Preset>
+			<Preset id="2" displayName="esoHard">
+				<Entry varId="GroupMonsterTier1Min" value="0" />
+				<Entry varId="GroupMonsterTier1Max" value="1" />
+				<Entry varId="GroupMonsterTier2Min" value="0" />
+				<Entry varId="GroupMonsterTier2Max" value="2" />
+				<Entry varId="GroupMonsterTier3Min" value="1" />
+				<Entry varId="GroupMonsterTier3Max" value="3" />
+				<Entry varId="GroupMonsterTier4Min" value="2" />
+				<Entry varId="GroupMonsterTier4Max" value="4" />
+				<Entry varId="GroupMonsterTier5Min" value="3" />
+				<Entry varId="GroupMonsterTier5Max" value="6" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="GroupMonsterTier1Min" displayName="Tier1Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="GroupMonsterTier1Max" displayName="Tier1Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="GroupMonsterTier2Min" displayName="Tier2Min" displayType="SLIDER;-10;10;20"/>
+			<Var id="GroupMonsterTier2Max" displayName="Tier2Max" displayType="SLIDER;-10;10;20"/>
+			<Var id="GroupMonsterTier3Min" displayName="Tier3Min" displayType="SLIDER;-15;15;30"/>
+			<Var id="GroupMonsterTier3Max" displayName="Tier3Max" displayType="SLIDER;-15;15;30"/>
+			<Var id="GroupMonsterTier4Min" displayName="Tier4Min" displayType="SLIDER;-20;20;40"/>
+			<Var id="GroupMonsterTier4Max" displayName="Tier4Max" displayType="SLIDER;-20;20;40"/>
+			<Var id="GroupMonsterTier5Min" displayName="Tier5Min" displayType="SLIDER;-25;25;50"/>
+			<Var id="GroupMonsterTier5Max" displayName="Tier5Max" displayType="SLIDER;-25;25;50"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoGroupScaling" displayName="Mods.EnemyScalingOverhaul.esoGroupScaling">
+		<PresetsArray>
+			<Preset id="0" displayName="esoEasy">
+				<Entry varId="esoFeebleMin" value="-15" />
+				<Entry varId="esoFeebleMax" value="-10" />
+				<Entry varId="esoEasyMin" value="-10" />
+				<Entry varId="esoEasyMax" value="-5" />
+				<Entry varId="esoNormalMin" value="-5" />
+				<Entry varId="esoNormalMax" value="0" />
+				<Entry varId="esoHardMin" value="0" />
+				<Entry varId="esoHardMax" value="5" />
+				<Entry varId="esoHardcoreMin" value="5" />
+				<Entry varId="esoHardcoreMax" value="10" />
+			</Preset>
+			<Preset id="1" displayName="esoRecommended">
+				<Entry varId="esoFeebleMin" value="-12" />
+				<Entry varId="esoFeebleMax" value="-6" />
+				<Entry varId="esoEasyMin" value="-7" />
+				<Entry varId="esoEasyMax" value="-3" />
+				<Entry varId="esoNormalMin" value="-2" />
+				<Entry varId="esoNormalMax" value="2" />
+				<Entry varId="esoHardMin" value="3" />
+				<Entry varId="esoHardMax" value="7" />
+				<Entry varId="esoHardcoreMin" value="6" />
+				<Entry varId="esoHardcoreMax" value="12" />
+			</Preset>
+			<Preset id="2" displayName="esoHard">
+				<Entry varId="esoFeebleMin" value="-7" />
+				<Entry varId="esoFeebleMax" value="-2" />
+				<Entry varId="esoEasyMin" value="-3" />
+				<Entry varId="esoEasyMax" value="2" />
+				<Entry varId="esoNormalMin" value="0" />
+				<Entry varId="esoNormalMax" value="5" />
+				<Entry varId="esoHardMin" value="6" />
+				<Entry varId="esoHardMax" value="10" />
+				<Entry varId="esoHardcoreMin" value="10" />
+				<Entry varId="esoHardcoreMax" value="15" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoFeebleMin" displayName="esoFeebleMin" displayType="SLIDER;-30;0;30"/>
+			<Var id="esoFeebleMax" displayName="esoFeebleMax" displayType="SLIDER;-30;0;30"/>
+			<Var id="esoEasyMin" displayName="esoEasyMin" displayType="SLIDER;-15;0;15"/>
+			<Var id="esoEasyMax" displayName="esoEasyMax" displayType="SLIDER;-15;0;15"/>
+			<Var id="esoNormalMin" displayName="esoNormalMin" displayType="SLIDER;-10;10;20"/>
+			<Var id="esoNormalMax" displayName="esoNormalMax" displayType="SLIDER;-10;10;20"/>
+			<Var id="esoHardMin" displayName="esoHardMin" displayType="SLIDER;0;15;15"/>
+			<Var id="esoHardMax" displayName="esoHardMax" displayType="SLIDER;0;15;15"/>
+			<Var id="esoHardcoreMin" displayName="esoHardcoreMin" displayType="SLIDER;0;30;30"/>
+			<Var id="esoHardcoreMax" displayName="esoHardcoreMax" displayType="SLIDER;0;30;30"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoHealthModifiers" displayName="Mods.EnemyScalingOverhaul.esoHealthModifiers">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla">
+				<Entry varId="esoHumanHealth" value="0" />
+				<Entry varId="esoBeastHealth" value="0" />
+				<Entry varId="esoMonsterHealth" value="0" />
+				<Entry varId="esoGroupMonsterHealth" value="0" />
+				<Entry varId="esoContractHealth" value="0" />
+				<Entry varId="esoBossHealth" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoHumanHealth" displayName="esoHumanHealth" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoBeastHealth" displayName="esoBeastHealth" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoMonsterHealth" displayName="esoMonsterHealth" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoGroupMonsterHealth" displayName="esoGroupMonsterHealth" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoContractHealth" displayName="esoContractHealth" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoBossHealth" displayName="esoBossHealth" displayType="SLIDER;-0.9;5.0;59"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoDamageModifiers" displayName="Mods.EnemyScalingOverhaul.esoDamageModifiers">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla">
+				<Entry varId="esoHumanDamage" value="0" />
+				<Entry varId="esoBeastDamage" value="0" />
+				<Entry varId="esoMonsterDamage" value="0" />
+				<Entry varId="esoGroupMonsterDamage" value="0" />
+				<Entry varId="esoContractDamage" value="0" />
+				<Entry varId="esoBossDamage" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoHumanDamage" displayName="esoHumanDamage" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoBeastDamage" displayName="esoBeastDamage" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoMonsterDamage" displayName="esoMonsterDamage" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoGroupMonsterDamage" displayName="esoGroupMonsterDamage" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoContractDamage" displayName="esoContractDamage" displayType="SLIDER;-0.9;5.0;59"/>
+			<Var id="esoBossDamage" displayName="esoBossDamage" displayType="SLIDER;-0.9;5.0;59"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoResistModifiersHuman" displayName="Mods.EnemyScalingOverhaul.esoResistanceModifiers.esoResistModifiersHuman">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla" >
+				<Entry varId="esoHumanForce" value="0"	/>
+				<Entry varId="esoHumanBurn" value="0"	/>
+				<Entry varId="esoHumanWill" value="0"	/>
+				<Entry varId="esoHumanShock" value="0"	/>
+				<Entry varId="esoHumanBleed" value="0"	/>
+				<Entry varId="esoHumanPoison" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoHumanForce" displayName="esoForceResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoHumanBurn" displayName="esoBurnResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoHumanWill" displayName="esoWillResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoHumanShock" displayName="esoShockResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoHumanBleed" displayName="esoBleedResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoHumanPoison" displayName="esoPoisonResist" displayType="SLIDER;-100;100;200" />
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoResistModifiersBeast" displayName="Mods.EnemyScalingOverhaul.esoResistanceModifiers.esoResistModifiersBeast">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla" >
+				<Entry varId="esoBeastForce" value="0"	/>
+				<Entry varId="esoBeastBurn" value="0"	/>
+				<Entry varId="esoBeastWill" value="0"	/>
+				<Entry varId="esoBeastShock" value="0"	/>
+				<Entry varId="esoBeastBleed" value="0"	/>
+				<Entry varId="esoBeastPoison" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoBeastForce" displayName="esoForceResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBeastBurn" displayName="esoBurnResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBeastWill" displayName="esoWillResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBeastShock" displayName="esoShockResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBeastBleed" displayName="esoBleedResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBeastPoison" displayName="esoPoisonResist" displayType="SLIDER;-100;100;200" />
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoResistModifiersMonster" displayName="Mods.EnemyScalingOverhaul.esoResistanceModifiers.esoResistModifiersMonster">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla" >
+				<Entry varId="esoMonsterForce" value="0"	/>
+				<Entry varId="esoMonsterBurn" value="0"	/>
+				<Entry varId="esoMonsterWill" value="0"	/>
+				<Entry varId="esoMonsterShock" value="0"	/>
+				<Entry varId="esoMonsterBleed" value="0"	/>
+				<Entry varId="esoMonsterPoison" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoMonsterForce" displayName="esoForceResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoMonsterBurn" displayName="esoBurnResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoMonsterWill" displayName="esoWillResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoMonsterShock" displayName="esoShockResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoMonsterBleed" displayName="esoBleedResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoMonsterPoison" displayName="esoPoisonResist" displayType="SLIDER;-100;100;200" />
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoResistModifiersGroupMonster" displayName="Mods.EnemyScalingOverhaul.esoResistanceModifiers.esoResistModifiersGroupMonster">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla" >
+				<Entry varId="esoGroupMonsterForce" value="0"	/>
+				<Entry varId="esoGroupMonsterBurn" value="0"	/>
+				<Entry varId="esoGroupMonsterWill" value="0"	/>
+				<Entry varId="esoGroupMonsterShock" value="0"	/>
+				<Entry varId="esoGroupMonsterBleed" value="0"	/>
+				<Entry varId="esoGroupMonsterPoison" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoGroupMonsterForce" displayName="esoForceResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoGroupMonsterBurn" displayName="esoBurnResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoGroupMonsterWill" displayName="esoWillResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoGroupMonsterShock" displayName="esoShockResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoGroupMonsterBleed" displayName="esoBleedResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoGroupMonsterPoison" displayName="esoPoisonResist" displayType="SLIDER;-100;100;200" />
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoResistModifiersContractMonster" displayName="Mods.EnemyScalingOverhaul.esoResistanceModifiers.esoResistModifiersContractMonster">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla" >
+				<Entry varId="esoContractMonsterForce" value="0"	/>
+				<Entry varId="esoContractMonsterBurn" value="0"	/>
+				<Entry varId="esoContractMonsterWill" value="0"	/>
+				<Entry varId="esoContractMonsterShock" value="0"	/>
+				<Entry varId="esoContractMonsterBleed" value="0"	/>
+				<Entry varId="esoContractMonsterPoison" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoContractMonsterForce" displayName="esoForceResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoContractMonsterBurn" displayName="esoBurnResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoContractMonsterWill" displayName="esoWillResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoContractMonsterShock" displayName="esoShockResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoContractMonsterBleed" displayName="esoBleedResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoContractMonsterPoison" displayName="esoPoisonResist" displayType="SLIDER;-100;100;200" />
+		</VisibleVars>
+	</Group>
+	
+	<Group id="esoResistModifiersBoss" displayName="Mods.EnemyScalingOverhaul.esoResistanceModifiers.esoResistModifiersBoss">
+		<PresetsArray>
+			<Preset id="0" displayName="esoVanilla" >
+				<Entry varId="esoBossForce" value="0"	/>
+				<Entry varId="esoBossBurn" value="0"	/>
+				<Entry varId="esoBossWill" value="0"	/>
+				<Entry varId="esoBossShock" value="0"	/>
+				<Entry varId="esoBossBleed" value="0"	/>
+				<Entry varId="esoBossPoison" value="0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="esoBossForce" displayName="esoForceResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBossBurn" displayName="esoBurnResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBossWill" displayName="esoWillResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBossShock" displayName="esoShockResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBossBleed" displayName="esoBleedResist" displayType="SLIDER;-100;100;200" />
+			<Var id="esoBossPoison" displayName="esoPoisonResist" displayType="SLIDER;-100;100;200" />
+		</VisibleVars>
+	</Group>
+</UserConfig>
