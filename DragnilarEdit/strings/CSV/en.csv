@@ -10,6 +10,6 @@
 2119878007|E2E48F93|skill_name_sword_s19|Wrath of The White Wolf
 2119878008|CEA74419|skill_desc_sword_s19|If a sign is cast when he has full aderenaline, Geralt will enter a heightened state where he invulnerble and all of his abilities are greatly enhanced for 20 seconds. Cannot be used again afterwords for 50 seconds.
 2119878009|483C9092|attribute_name_aerondight|Each blow generates charges which increase sword damage by $S$%. Charges are lost over time or when receiving damage. A fully-charged sword always deals critical hit damage and ignores defenses. Is effective against both humans and monsters.
-2119878010|15DDA91B|skill_desc_alchemy_s17|If Toxicity is above 0, each opponent killed increases critical hit chance, damage, attack power, spell power and armor by $I$% for the duration of that fight.
+2119878010|15DDA91B|skill_desc_alchemy_s17|If Toxicity is above 0, each opponent killed increases critical hit chance, damage, attack power, spell power and armor by $I$% for the duration of that fight, up to a maximum of 5 kills.
 
 
