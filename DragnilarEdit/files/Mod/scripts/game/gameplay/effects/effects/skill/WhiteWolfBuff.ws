@@ -5,15 +5,8 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 	protected function CalculateDuration(optional setInitialDuration : bool)
 	{
-		var min, max : SAbilityAttributeValue;
-
+		
 		super.CalculateDuration( setInitialDuration );
-
-		if (GetWitcherPlayer().IsSetBonusActive( EISB_Wolf_2 ))
-		{
-			theGame.GetDefinitionsManager().GetAbilityAttributeValue('SetBonusAbilityWolf_2', 'duration', min, max);
-			duration = initialDuration * min.valueMultiplicative;
-		}
 		
 		initialDuration = duration;
 	}
