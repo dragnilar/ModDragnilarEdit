@@ -1,7 +1,7 @@
 ;meta[language=ru]
 ; id | key(hex) | key(str) | text
 2119878000|85E8FBD1|skill_desc_wolf_set_ability1|Fast Attacks increase Strong Attack damage for $S$ seconds by $S$% for each piece of the set. Current bonus: $S$%.
-2119878001|85E8FBD2|skill_desc_wolf_set_ability2|Increases the duration of Wrath of the White Wolf by $S$%.
+2119878001|85E8FBD2|skill_desc_wolf_set_ability2|Reduces the cooldown of Wrath of the White Wolf by $S$ seconds.
 2119878002|EFA7F95B|item_name_wolfschool_crossbow|Wolf School Crossbow
 2119878003|6F269715|item_name_greater_white_wolf|White Wolf Mutagen
 2119878004|B77E945C|item_name_greater_dagon|Dagon Mutagen
@@ -11,5 +11,5 @@
 2119878008|CEA74419|skill_desc_sword_s19|If a sign is cast when he has full aderenaline, Geralt will enter a heightened state where he invulnerble and all of his abilities are greatly enhanced for 20 seconds. Cannot be used again afterwords for 50 seconds.
 2119878009|483C9092|attribute_name_aerondight|Each blow generates charges which increase sword damage by $S$%. Charges are lost over time or when receiving damage. A fully-charged sword always deals critical hit damage and ignores defenses. Is effective against both humans and monsters.
 2119878010|15DDA91B|skill_desc_alchemy_s17|If Toxicity is above 0, each opponent killed increases critical hit chance, damage, attack power, spell power and armor by $I$% for the duration of that fight, up to a maximum of 5 kills.
-
+2119878011|CEA74416|skill_desc_sword_s16|Adrenaline Point loss upon taking damage is lowered by $I$% and stagger duration is divided by $|$,
 
