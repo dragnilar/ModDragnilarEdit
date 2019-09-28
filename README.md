@@ -12,6 +12,5 @@ These are the following mods that I merged into my own and then may or may not h
 <list>
 <li>Ultimate Yrden (my own tweaks conflicted and thus it was simpler to merge)</li>
 <li>Jump in Shallow Water (simply done to consolodate mods)</li>
-<li>Additional Alchemy (merged due to script conflicts/tweaks made to the mod itself).</li>
 <li>Some adjustments were inspired by the changes in Ghost Mode (I.E. Armor penalty).</li>
 </list>
