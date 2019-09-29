@@ -16,5 +16,8 @@
 2119878013|8D17AAA2|skill_desc_alchemy_s7|When Adrenaline Points are at their maximum critical hit damage against the targeted enemy type is increased by $I$%. Passive Bonus: Increases monster damage resistance by $I$%.
 2119878014|15DDA917|skill_desc_alchemy_s13|When consumed, mutagen decoction increases maximum Vitality by $I$ for decoction's effective duration. Passive Bonus: Increases Slashing, Piercing and Bludgeoning resistance by $I$%.
 2119878015|15DDA918|skill_desc_alchemy_s14|Extends effective duration of all mutagen decoctions by $I$%. Passive Bonus: Increases poison damage resistance by $I$%.
+2119878016|CEA743F4|skill_desc_sword_s03|Each Adrenaline Point adds $I$% to the chance of killing an opponent instantly. Passive Bonus: Increases critical hit damage by $I$%.
+2119878017|B1173FA8|skill_desc_magic_s07|Increases Igni Sign intensity by $I$%. Passive Bonus: Increases burning resistance by $I$%.
+2119878018|B1173FC6|skill_desc_magic_s16|Increases Yrden Sign intensity by $I$%. Passive Bonus: Increases elemental damage resistance by $I$%.
 
 
