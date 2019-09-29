@@ -14,4 +14,5 @@
 2119878011|CEA74416|skill_desc_sword_s16|Adrenaline Point loss upon taking damage is lowered by $I$% and stagger duration is divided by $S$.
 2119878012|B1173FC1|skill_desc_magic_s11|Enemies under the influence of Yrden lose $I$ point(s) of Vitality or Essence per second. Receives additional damage from $S$ of spell power.
 2119878013|8D17AAA2|skill_desc_alchemy_s7|When Adrenaline Points are at their maximum critical hit damage against the targeted enemy type is increased by $I$%. Passive Bonus: Increases monster damage resistance by $I$%.
+2119878014|15DDA917|skill_desc_alchemy_s13|When consumed, mutagen decoction increases maximum Vitality by $I$ for decoction's effective duration. Passive Bonus: Increases Slashing, Piercing and Bludgeoning resistance by $I$%.
 
