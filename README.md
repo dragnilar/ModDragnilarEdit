@@ -2,7 +2,11 @@
 </br>
 This is a mod for the Witcher 3 for the PC that contains a bunch of my own personal tweaks for the game.
 </br>
-The vast majority of these tweaks could be considered cheating (at present) due to their experimental nature or absurdly high numbers. 
+The majority of the changes revolve around making the skills more interesting and requiring less skill point investment, somewhat similar to Witcher 1.
+</br>
+Another notable change is that Aerondight has been greatly improved in a number of ways. The most significant is that it now works on both humans and monsters.
+</br>
+The other change that should probably be noted is that a lot of the damage reduction bonuses on armor and from protective coating have been reduced.
 </br>
 </br>
 Note: A number of the tweaks include merges from other mods found over at <a href="https://www.nexusmods.com/witcher3/">Nexus Mods</A>.
