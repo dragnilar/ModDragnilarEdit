@@ -20,4 +20,9 @@
 2119878017|163A8E76|skill_desc_magic_s7|Increases Igni Sign intensity by $I$%. Passive Bonus: Increases burning resistance by $I$%.
 2119878018|B1173FC6|skill_desc_magic_s16|Increases Yrden Sign intensity by $I$%. Passive Bonus: Increases elemental damage resistance by $I$%.
 2119878019|FF5FE15|skill_name_alchemy_s17|Butcher of Blaviken
+2119878020|2A74C610|skill_desc_prev_alchemy_s18|Every known level 1 alchemy formula increases maximum Toxicity by 4
+2119878021|15DDA91C|skill_desc_alchemy_s18|Every known level 1 alchemy formula increases maximum Toxicity by 4
+2119878022|1517DDCF|skill_desc_alchemy_s18_2|Every known level 1 or 2 alchemy formula increases maximum Toxicity by 4
+2119878023|1517DDD0|skill_desc_alchemy_s18_3|Every known level 1, 2 or 3 alchemy formula increases maximum Toxicity by 4
+
 
