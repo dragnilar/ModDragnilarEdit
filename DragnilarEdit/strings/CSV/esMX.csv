@@ -30,4 +30,6 @@
 2119878027|1F70C025|skill_desc_sword_s6|Increases attack power by $I$% for all sword attacks. Passive bonus: adds $I$% damage reduction against all attacks.
 2119878028|1F70C027|skill_desc_sword_s8|Increases strong attack damage by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. 
 2119878029|163A8E78|skill_desc_magic_s9|Increases the chance to apply Burning by $I$%. Passive Bonus:Adds $I$ fire damage to all attacks (increases with character level).
+2119878030|163A8E75|skill_desc_magic_s6|Increases the damage dealt by Aard to $I$. Passive Bonus: Adds $I$ force damage to all attacks (increases with character level).
+
 
