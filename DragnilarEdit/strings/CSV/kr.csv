@@ -31,10 +31,10 @@
 2119878028|163A8E78|skill_desc_magic_s9|Increases the chance to apply Burning by $I$%. Passive Bonus:Adds $I$ fire damage to all attacks (increases with character level).
 2119878029|163A8E75|skill_desc_magic_s6|Increases the damage dealt by Aard to $I$. Passive Bonus: Adds $I$ force damage to all attacks (increases with character level).
 2119878030|8D17AA9C|skill_desc_alchemy_s1|Increases potion overdose threshold by $I$% and reduceds potion toxicity by $I$.
-2119878031|C5548B3B|skill_name_magic_s11|Control Over ThePower
+2119878031|C5548B3B|skill_name_magic_s11|Control Over The Power
 2119878032|B1173FC1|skill_desc_magic_s11|Increases damage resistance by $I$% to all attacks. Also increases sign intensity by $I$%. Passive Bonus: Adds $I$ shock damage to all attacks.
 2119878033|B6F909B5|skill_desc_prev_magic_s11|Increases damage resistance, spell power and provides a passive shock damage bonus to all attacks.
-2119878034|B1173FC0|skill_desc_magic_s10|Increases Sign duration by $I$ seconds. Number of alternate mode charges: $I$. Number of Standard mode traps: %I%. Enemies under the influence of Yrden lose $I$ point(s) of Vitality or Essence per second. Receives additional damage from $I$ of spell power.
+2119878034|B1173FC0|skill_desc_magic_s10|Increases Sign duration by $I$ seconds. Number of alternate mode charges: $I$. Number of Standard mode traps: $I$. Enemies under the influence of Yrden lose $I$ point(s) of Vitality or Essence per second. Receives additional damage from $I$ of spell power.
 2119878035|C5548B3A|skill_name_magic_s10|The 5th Element
 
 
