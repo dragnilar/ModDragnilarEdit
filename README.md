@@ -15,6 +15,8 @@ These are the following mods that I merged into my own and then may or may not h
 <br>
 <list>
 <li>Ultimate Yrden (my own tweaks conflicted and thus it was simpler to merge)</li>
-<li>Jump in Shallow Water (simply done to consolodate mods)</li>
-<li>Some adjustments were inspired by the changes in Ghost Mode (I.E. Armor penalty).</li>
+<li>Jump in Shallow Water</li>
+<li>Some adjustments inspired by Ghost Mode</li>
+<li>Elly's "All Skills At Once" mod</li>
+  <li>Multiple Mutations </li> 
 </list>
