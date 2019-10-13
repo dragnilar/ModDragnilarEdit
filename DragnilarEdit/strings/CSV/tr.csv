@@ -30,11 +30,18 @@
 2119878027|1F70C027|skill_desc_sword_s8|Increases strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. 
 2119878028|163A8E78|skill_desc_magic_s9|Increases the chance to apply Burning by $I$%. Passive Bonus:Adds $I$ fire damage to all attacks (increases with character level).
 2119878029|163A8E75|skill_desc_magic_s6|Increases the damage dealt by Aard to $I$. Passive Bonus: Adds $I$ force damage to all attacks (increases with character level).
-2119878030|8D17AA9C|skill_desc_alchemy_s1|Increases potion overdose threshold by $I$% and reduceds potion toxicity by $I$.
+2119878030|8D17AA9C|skill_desc_alchemy_s1|Increases potion overdose threshold by $I$%. Passive Bonus: Reduces potiion toxicity by $I$%.
 2119878031|C5548B3B|skill_name_magic_s11|Control Over The Power
 2119878032|B1173FC1|skill_desc_magic_s11|Increases damage resistance by $I$% to all attacks. Also increases sign intensity by $I$%. Passive Bonus: Adds $I$ shock damage to all attacks.
 2119878033|B6F909B5|skill_desc_prev_magic_s11|Increases damage resistance, spell power and provides a passive shock damage bonus to all attacks.
 2119878034|B1173FC0|skill_desc_magic_s10|Increases Sign duration by $I$ seconds. Number of alternate mode charges: $I$. Number of Standard mode traps: $I$. Enemies under the influence of Yrden lose $I$ point(s) of Vitality or Essence per second. Receives additional damage from $I$ of spell power.
 2119878035|C5548B3A|skill_name_magic_s10|The 5th Element
+2119878036|1F70C023|skill_desc_sword_s4|Strong attack damage increased by $I$%. Passive Bonus: Bludgeoning damage resistance increased by $I$%.
+2119878037|B1173FC4|skill_desc_magic_s14|Reduces the stamina cost of all signs by $I$% and provides $I$% damage reduction against all damage types. Also increases spell power by $I$% and attack power by $I$%. Passive bonus: Increases critical hit damage by $I$%.
+2119878038|C5548B3E|skill_name_magic_s14|Raw Power
+2119878039|B6F909B7|skill_desc_prev_magic_s13|Quen shield pushes opponents back when it breaks. Reflects $I$% absorbed damage back to the attacker.
+2119878040|B1173FC3|skill_desc_magic_s13|Quen shield pushes opponents back when it breaks. Reflects $I$% absorbed damage back to the attacker.
+2119878041|C84666B6|skill_desc_magic_s13_2|Quen shield pushes opponents back and deals damage when it breaks. Reflects $I$% absorbed damage back to the attacker.
+2119878042|C84666B7|skill_desc_magic_s13_3|Quen shield pushes opponents back and deals damage when it breaks with a chance for knock-down. Reflects $I$% absorbed damage back to the attacker.
 
 
