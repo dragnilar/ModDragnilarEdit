@@ -19,9 +19,8 @@ Another significant change is that mutagens have been altered so that they can p
 </br>
 </br>
 <b>Other Modifications Used/Incorporated</b>
-A number of the tweaks include merges from other mods found over at <a href="https://www.nexusmods.com/witcher3/">Nexus Mods</A>.
-<br>
-These are the following mods that I merged into my own and then may or may not have further edited:
+</br>
+This lists any of the significant modifications from <a href="https://www.nexusmods.com/witcher3/">Nexus Mods</A> that I integrated and/or used for inspiration:
 <br>
 <list>
 <li>Ultimate Yrden (This will be removed due to the fact that it causes strange bugs like crashing if Yrden is active during a conversation and I also do not like how it limits the number of traps that can be deployed.)</li>
