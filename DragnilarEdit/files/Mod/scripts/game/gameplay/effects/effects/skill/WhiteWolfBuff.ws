@@ -20,7 +20,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	event OnEffectRemoved()
 	{
 			
-		target.SetImmortalityMode( AIM_Immortal, AIC_WhiteWolf );
+		target.SetImmortalityMode( AIM_None, AIC_WhiteWolf );
         target.RemoveAbilityAll(abilityName);
 		super.OnEffectRemoved();
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
