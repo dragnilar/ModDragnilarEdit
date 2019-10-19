@@ -47,5 +47,8 @@
 2119878044|754D1899|skill_desc_perk_19|Battle Trance now increases critical hit chance by $I$%, an additional $I$% critical hit damage and $I$% attack power per Adrenaline Point
 2119878045|C84675BB|skill_desc_magic_s17_3|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Axii can now be used on two opponents at the same time.
 2119878046|B1173FC9|skill_desc_magic_s19|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
+2119878047|B6F909BD|skill_desc_prev_magic_s19|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
+2119878048|C8467D3C|skill_desc_magic_s19_2|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
+2119878049|C8467D3D|skill_desc_magic_s19_3|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
 
 
