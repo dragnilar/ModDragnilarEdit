@@ -59,5 +59,7 @@
 2119878056|B6171216|item_name_viper_pants_final|White Wolf's Pants
 2119878057|81DDEA3B|item_name_viper_boots_final|White Wolf's Boots
 2119878058|15DDA933|skill_desc_alchemy_s20|Increases maximum Vitality by $I$% when Toxicity exceeds the safe threshold. Passive Bonus: Increases damage reduction by $I$%.
+2119878059|37010020|item_name_infatigable_mutagen|Infatigable Mutagen
+2119878060|95A84526|item_desc_infatigable_mutagen|Increases attack power by $I$%. Actions such as sprinting and jumping do not consume stamina outside of combat.
 
 
