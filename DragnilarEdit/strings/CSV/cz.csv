@@ -60,11 +60,12 @@
 2119878057|81DDEA3B|item_name_viper_boots_final|White Wolf's Boots
 2119878058|15DDA933|skill_desc_alchemy_s20|Increases maximum Vitality by $I$% when Toxicity exceeds the safe threshold. Passive Bonus: Increases damage reduction by $I$%.
 2119878059|37010020|item_name_infatigable_mutagen|Infatigable Mutagen
-2119878060|95A84526|item_desc_infatigable_mutagen|Increases attack power by $I$%. Actions such as sprinting and jumping do not consume stamina outside of combat.
+2119878060|95A84526|item_desc_infatigable_mutagen|Increases attack power by 20%. Actions such as sprinting and jumping do not consume stamina outside of combat.
 2119878061|FC921528|item_desc_mutagen_24|Gain 50% to Attack and Sign Power, +5/s to Stamina regeneration and +25% to Adrenaline gain while health is at 20% or lower. Resets when health is regained and at the end of combat. 10s cooldown.
 2119878062|FC92152B|item_desc_mutagen_27|On casting a sign in combat, increases stamina regeneration by 1% and sign power by 1%, up to a maximum of 50%. The effect lasts for the duration of the decoction or until meditating.
 2119878063|9A007CED|effect_whiteWolf|White Wolf's Wrath
 2119878064|B504BFE6|effect_whiteWolf_debuff|White Wolf's Wrath Is On Cooldown
 2119878065|E88691FE|item_name_solide_mutagen|Solide Mutagen
-2119878066|12FDC138|item_desc_solide_mutagen|Increases vitality by $I$%. Adds 3% damage reduction against all attacks
+2119878066|12FDC138|item_desc_solide_mutagen|Increases vitality by 500. Adds 3% damage reduction against all attacks
+
 
