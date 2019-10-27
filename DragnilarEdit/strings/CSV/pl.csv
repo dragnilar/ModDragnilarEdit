@@ -65,4 +65,6 @@
 2119878062|FC92152B|item_desc_mutagen_27|On casting a sign in combat, increases stamina regeneration by 1% and sign power by 1%, up to a maximum of 50%. The effect lasts for the duration of the decoction or until meditating.
 2119878063|9A007CED|effect_whiteWolf|White Wolf's Wrath
 2119878064|B504BFE6|effect_whiteWolf_debuff|White Wolf's Wrath Is On Cooldown
+2119878065|E88691FE|item_name_solide_mutagen|Solide Mutagen
+2119878066|12FDC138|item_desc_solide_mutagen|Increases vitality by $I$%. Adds 3% damage reduction against all attacks
 
