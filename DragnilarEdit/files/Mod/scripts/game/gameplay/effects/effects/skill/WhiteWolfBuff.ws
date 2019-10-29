@@ -5,16 +5,17 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 	protected function CalculateDuration(optional setInitialDuration : bool)
 	{
-		
+		var durationBonus : float;
 		super.CalculateDuration( setInitialDuration );
-		
-		initialDuration = duration;
+		durationBonus = ((float)thePlayer.GetSkillLevel(S_Sword_s19) * 10) - 10;
+		initialDuration = duration + durationBonus;
 	}
 
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
 	{	
 		super.OnEffectAdded( customParams );	
 		target.SetImmortalityMode( AIM_Immortal, AIC_WhiteWolf );
+		target.PlayEffect('mutation_7_baff');
 	}
 
 	public function IncreaseDuration(durationBoost : float)
@@ -35,6 +36,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 			
 		target.SetImmortalityMode( AIM_None, AIC_WhiteWolf );
         target.RemoveAbilityAll(abilityName);
+		target.StopEffect( 'mutation_7_baff' );
 		super.OnEffectRemoved();
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
 	}
