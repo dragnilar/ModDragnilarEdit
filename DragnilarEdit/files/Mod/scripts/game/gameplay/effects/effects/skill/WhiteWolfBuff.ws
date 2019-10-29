@@ -19,10 +19,13 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 	public function IncreaseDuration(durationBoost : float)
 	{
-		if (duration > 0)
+		var whiteWolfDuration : float;
+		whiteWolfDuration = GetTimeLeft();
+		if (whiteWolfDuration > 0)
 		{
-			duration += durationBoost;
-			LogChannel('modDragnilarEdit', "White Wolf duration increased to: " + FloatToString(duration));
+			whiteWolfDuration += durationBoost;
+			SetTimeLeft(whiteWolfDuration);
+			LogChannel('modDragnilarEdit', "White Wolf duration increased to: " + FloatToString(whiteWolfDuration));
 		}
 	}
 
