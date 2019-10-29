@@ -69,5 +69,9 @@
 2119878066|12FDC138|item_desc_solide_mutagen|Increases vitality by 500. Adds 3% damage reduction against all attacks
 2119878067|A6383EDC|item_name_hexer_mutagen|Hexer Mutagen
 2119878068|D0E14062|item_desc_hexer_mutagen|Increases Sign Intensity By 20%. Casting the Axiii sign will inflict 400 damage on an enemy and restore a portion of Geralt's life. Damage and life scales with sign intensity.
+2119878069|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Passive Bonus:Damage is reduced by $I$%.
+2119878070|CEA74418|skill_desc_sword_s18|When Vitality reaches 0, it will be restored with a bonus of 25%. Requires at least 1 Adrenaline Point, which will be consumed. Passive Bonus: Adds $I$% damage reduction.
+2119878071|C1E6A9CB|skill_desc_sword_s18_2|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. Passive Bonus: Adds $I$% damage reduction.
+2119878072|C1E6A9CC|skill_desc_sword_s18_3|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. If Geralt has White Wolf's Wrath as a skill, it will be activated instead (regardless of whether or not it is on cooldown). Passive Bonus: Adds $I$% damage reduction.
 
 
