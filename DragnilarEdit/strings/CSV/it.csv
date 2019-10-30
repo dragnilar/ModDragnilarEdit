@@ -37,7 +37,7 @@
 2119878034|B1173FC0|skill_desc_magic_s10|Increases Sign duration by $I$ seconds. Number of alternate mode charges: $I$. Number of Standard mode traps: $I$. Enemies under the influence of Yrden lose $I$ point(s) of Vitality or Essence per second. Receives additional damage from $I$ of spell power.
 2119878035|C5548B3A|skill_name_magic_s10|The 5th Element
 2119878036|1F70C023|skill_desc_sword_s4|Strong attack damage increased by $I$%. Passive Bonus: Bludgeoning damage resistance increased by $I$%.
-2119878037|B1173FC4|skill_desc_magic_s14|Provides $I$% damage reduction against all damage types. Also increases spell power by $I$% and attack power by $I$%. Passive bonus: Increases critical hit damage by $I$%.
+2119878037|B1173FC4|skill_desc_magic_s14|Provides $I$% damage reduction against all damage types, increases spell power by $I$% and attack power by $I$%. Reduces enemy resistances by $I$%. Passive bonus: Increases critical hit damage by $I$%.
 2119878038|C5548B3E|skill_name_magic_s14|Raw Power
 2119878039|B6F909B7|skill_desc_prev_magic_s13|Quen shield pushes opponents back when it breaks. Reflects $I$% absorbed damage back to the attacker.
 2119878040|B1173FC3|skill_desc_magic_s13|Quen shield pushes opponents back when it breaks. Reflects $I$% absorbed damage back to the attacker.
@@ -75,5 +75,6 @@
 2119878072|C1E6A9CC|skill_desc_sword_s18_3|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. If Geralt has White Wolf's Wrath as a skill, it will be activated instead (regardless of whether or not it is on cooldown). Passive Bonus: Adds $I$% damage reduction.
 2119878073|C1E6AD8C|skill_desc_sword_s19_2|Casting a sign while adrenaline is full will cause Geralt to temporarily trigger and awaken his untapped potential. In this state he is invulnerble, his vitality regenerates at an accelerated pace and all of his abilities deal triple damage for 30 seconds. Cannot be used again afterwords for 50 seconds.
 2119878074|C1E6AD8D|skill_desc_sword_s19_3|Casting a sign while adrenaline is full will cause Geralt to temporarily trigger and awaken his untapped potential. In this state he is invulnerble, his vitality regenerates at an accelerated pace and all of his abilities deal quadruple damage for 40 seconds. This effect will now also be triggered in place of any effects granted by abilities that are used when Geralt's life reaches zero. Cannot be used again afterwords for 50 seconds.
+2119878075|3682EE98|instant_kill_chance_mult|Brutal Strike Chance
 
 
