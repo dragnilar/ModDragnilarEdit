@@ -23,8 +23,9 @@ Another significant change is that mutagens have been altered so that they can p
 This lists any of the significant modifications from <a href="https://www.nexusmods.com/witcher3/">Nexus Mods</A> that I integrated and/or used for inspiration:
 <br>
 <list>
-<li>Ultimate Yrden (This will be removed due to the fact that it causes strange bugs like crashing if Yrden is active during a conversation and I also do not like how it limits the number of traps that can be deployed.)</li>
 <li>Jump in Shallow Water</li>
 <li>Some adjustments from Ghost Mode, primarily "Clear Develop" for debugging purposes</li>
+<li>Some adjustments from FCR3, mainly bug fixes for monster damage (I.E. Monster projectiles doing percentages of Geralt's life regardless of DR)</li>
+<li>The Rend Spells from Magic Spells for Signs and Weapons; Rend felt underwhelming without it.</li>
 <li>Elly's "All Skills At Once" mod</li>
 </list>
