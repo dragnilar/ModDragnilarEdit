@@ -25,7 +25,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 		}
 
-		initialDuration = duration + durationBonus;
+		SetTimeLeft(initialDuration + durationBonus);
 	}
 
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
