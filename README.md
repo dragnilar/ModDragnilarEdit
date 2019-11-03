@@ -24,8 +24,9 @@ This lists any of the significant modifications from <a href="https://www.nexusm
 <br>
 <list>
 <li>Jump in Shallow Water</li>
-<li>Some adjustments from Ghost Mode, primarily "Clear Develop" for debugging purposes</li>
+<li>Some adjustments from Ghost Mode, primarily "Clear Develop" for debugging purposes.</li>
 <li>Some adjustments from FCR3, mainly bug fixes for monster damage (I.E. Monster projectiles doing percentages of Geralt's life regardless of DR)</li>
-<li>The Rend Spells from Magic Spells for Signs and Weapons; Rend felt underwhelming without it.</li>
-<li>Elly's "All Skills At Once" mod</li>
+<li>The Yrden Rend Spell from Magic Spells for Signs and Weapons; Rend felt underwhelming without it.</li>
+<li>Elly's "All Skills At Once" mod.</li>
+<li>Auto Apply Oils for enhancing oil based skills.</li>
 </list>
