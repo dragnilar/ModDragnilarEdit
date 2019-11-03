@@ -25,6 +25,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		if (whiteWolfDuration > 0)
 		{	
 			LogChannel('modDragnilarEdit', "White Wolf current duration: " + FloatToString(whiteWolfDuration));
+			durationBoost = durationBoost * = GetWitcherPlayer().GetSetPartsEquipped(EIST_Wolf);
 			LogChannel('modDragnilarEdit', "Duration boost for White Wolf is: " + FloatToString(durationBoost));
 			whiteWolfDuration += durationBoost;
 			SetTimeLeft(whiteWolfDuration);
