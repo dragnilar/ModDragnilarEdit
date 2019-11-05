@@ -30,7 +30,7 @@
 2119878027|1F70C027|skill_desc_sword_s8|Increases strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. 
 2119878028|163A8E78|skill_desc_magic_s9|Increases the chance to apply Burning by $I$%. Passive Bonus:Adds $I$ fire damage to all attacks (increases with character level).
 2119878029|163A8E75|skill_desc_magic_s6|Increases the damage dealt by Aard to $I$. Passive Bonus: Adds $I$ force damage to all attacks (increases with character level).
-2119878030|8D17AA9C|skill_desc_alchemy_s1|Increases potion overdose threshold by $I$%. Passive Bonus: Reduces potiion toxicity by $I$%.
+2119878030|8D17AA9C|skill_desc_alchemy_s1|Increases potion overdose threshold by $I$%. Passive Bonus: Reduces potion toxicity by $I$.
 2119878031|C5548B3B|skill_name_magic_s11|Control Over The Power
 2119878032|B1173FC1|skill_desc_magic_s11|Increases damage resistance by $I$% to all attacks. Also increases sign intensity by $I$%. Passive Bonus: Adds $I$ shock damage to all attacks.
 2119878033|B6F909B5|skill_desc_prev_magic_s11|Increases damage resistance, spell power and provides a passive shock damage bonus to all attacks.
@@ -82,5 +82,4 @@
 2119878079|6414795|skill_desc_sword_s2_3|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend. If Control Over The Power is level 3, Rend now also releases a powerful wave of the 5th Element which inflicts slow and deals additional damage.
 2119878080|1F70C021|skill_desc_sword_s2|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%.
 2119878081|6414794|skill_desc_sword_s2_2|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend.
-
 
