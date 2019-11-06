@@ -86,5 +86,6 @@
 2119878083|1673B19E|item_name_recipe_for_silny_mutagen|Silny Mutagen Formula
 2119878084|D904BF7B|item_desc_silny_mutagen|Consuming this mutagen causes a Witcher to undergo a powerful, spontanious mutation, increasing their ability points by 1.
 2119878085|AE5BBDF5|item_name_silny_mutagen|Silny Mutagen
-2119878085|6415E1B|skill_desc_sword_s8_3|Increases strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. Also increses brutal strike chance by $I$%. 
+2119878086|6415E1B|skill_desc_sword_s8_3|Increases strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. Also increses brutal strike chance by $I$%. 
+2119878086|6415699|skill_desc_sword_s6_3|Increases attack power by $I$% and critical hit damage by $I$% for all sword attacks. Passive bonus: adds $I$% damage reduction against all attacks. Now also adds $I$ bleeding damage to all strong attacks.
 
