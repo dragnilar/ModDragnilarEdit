@@ -22,10 +22,11 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 			theGame.GetDefinitionsManager().GetAbilityAttributeValue('SetBonusAbilityWolf_1', 'white_wolf_duration_increase', min, max);
 			durationBonus += min.valueAdditive * GetWitcherPlayer().GetSetPartsEquipped( EIST_Wolf );
 			LogChannel('modDragnilarEdit',"White wolf Duration Bonus After Wolf Set: " + FloatToString(durationBonus));
-
 		}
 
-		SetTimeLeft(initialDuration + durationBonus);
+		if (durationBonus > 0)
+			duration += durationBonus;
+		LogChannel('modDragnilarEdit', "White Wolf Final Duration Is: " + FloatToString(duration));
 	}
 
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
