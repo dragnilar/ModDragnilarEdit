@@ -11,7 +11,7 @@
 2119878008|CEA74419|skill_desc_sword_s19|Casting a sign while adrenaline is full will cause Geralt to temporarily trigger and awaken his untapped potential. In this state he is invulnerble, his vitality regenerates at an accelerated pace and all of his abilities deal double damage for 20 seconds. Cannot be used again afterwords for 50 seconds.
 2119878009|483C9092|attribute_name_aerondight|Each blow generates charges which increase sword damage by $S$%. Charges are lost over time or when receiving damage. A fully-charged sword always deals critical hit damage and ignores defenses. Is effective against both humans and monsters.
 2119878010|15DDA91B|skill_desc_alchemy_s17|If Toxicity is above 0, each opponent killed increases critical hit chance, damage, attack power and spell power by $I$% for the duration of that fight.
-2119878011|CEA74416|skill_desc_sword_s16|Adrenaline Point loss upon taking damage is lowered by $I$% and stagger duration is divided by $I$. Passive Bonus:Increases attack power by $I$%.
+2119878011|CEA74416|skill_desc_sword_s16|Adrenaline Point loss upon taking damage is lowered by $I$% and increases attack power by $I$%.
 2119878012|8D17AAA2|skill_desc_alchemy_s7|When Adrenaline Points are at their maximum critical hit damage against the targeted enemy type is increased by $I$%. Passive Bonus: Increases monster damage resistance by $I$%.
 2119878013|15DDA917|skill_desc_alchemy_s13|When consumed, mutagen decoction increases maximum Vitality by $I$ for decoction's effective duration. Passive Bonus: Increases Slashing, Piercing and Bludgeoning resistance by $I$%.
 2119878014|15DDA918|skill_desc_alchemy_s14|Extends effective duration of all mutagen decoctions by $I$%. Passive Bonus: Increases poison damage resistance by $I$%.
@@ -82,4 +82,5 @@
 2119878079|6414795|skill_desc_sword_s2_3|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend. If Control Over The Power is level 3, Rend now also releases a powerful wave of the 5th Element which inflicts slow and deals additional damage.
 2119878080|1F70C021|skill_desc_sword_s2|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%.
 2119878081|6414794|skill_desc_sword_s2_2|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend.
+2119878081|C1E6A24A|skill_desc_sword_s16_3|Adrenaline Point loss upon taking damage is lowered by $I$%. Also increases attack power by $I$%. Now also adds $I$% damage reduction per Adrenaline Point.
 
