@@ -1,13 +1,13 @@
 ;meta[language=de]
 ; id | key(hex) | key(str) | text
-2119878000|85E8FBD1|skill_desc_wolf_set_ability1|Increases the duration of White Wolf's Wrath by $S$ seconds (bonus increased by number of set pieces equipped).
-2119878001|85E8FBD2|skill_desc_wolf_set_ability2|Reduces the cooldown of White Wolf's Wrath by $S$ seconds.
+2119878000|85E8FBD1|skill_desc_wolf_set_ability1|Increases the duration of White Wolf by $S$ seconds (bonus increased by number of set pieces equipped).
+2119878001|85E8FBD2|skill_desc_wolf_set_ability2|Reduces the cooldown of White Wolf by $S$ seconds.
 2119878002|EFA7F95B|item_name_wolfschool_crossbow|Wolf School Crossbow
 2119878003|EAA0CAA1|item_name_super_red_mutagen|Supreme Red Mutagen
 2119878004|900F5213|item_name_super_green_mutagen|Supreme Green Mutagen
 2119878005|6055C982|item_name_super_blue_mutagen|Supreme Blue Mutagen
 2119878006|13269EB1|item_name_aerondight_ep2|Aerondight, The Sword of Destiny
-2119878007|E2E48F93|skill_name_sword_s19|White Wolf's Wrath
+2119878007|E2E48F93|skill_name_sword_s19|White Wolf
 2119878008|CEA74419|skill_desc_sword_s19|Casting a sign while adrenaline is full will cause Geralt to temporarily trigger and awaken his untapped potential. In this state he is invulnerble, his vitality regenerates at an accelerated pace and all of his abilities deal double damage for 20 seconds. Cannot be used again afterwords for 50 seconds.
 2119878009|483C9092|attribute_name_aerondight|Each blow generates charges which increase sword damage by $S$%. Charges are lost over time or when receiving damage. A fully-charged sword always deals critical hit damage and ignores defenses. Is effective against both humans and monsters.
 2119878010|15DDA91B|skill_desc_alchemy_s17|If Toxicity is above 0, each opponent killed increases critical hit chance, damage, attack power and spell power by $I$% for the duration of that fight.
@@ -63,8 +63,8 @@
 2119878060|95A84526|item_desc_infatigable_mutagen|Increases attack power by 20%. Actions such as sprinting and jumping do not consume stamina outside of combat.
 2119878061|FC921528|item_desc_mutagen_24|Gain 50% to Attack and Sign Power, +5/s to Stamina regeneration and +25% to Adrenaline gain while health is at 20% or lower. Resets when health is regained and at the end of combat. 10s cooldown.
 2119878062|FC92152B|item_desc_mutagen_27|On casting a sign in combat, increases stamina regeneration by 1% and sign power by 1%, up to a maximum of 50%. The effect lasts for the duration of the decoction or until meditating.
-2119878063|9A007CED|effect_whiteWolf|White Wolf's Wrath
-2119878064|B504BFE6|effect_whiteWolf_debuff|White Wolf's Wrath Is On Cooldown
+2119878063|9A007CED|effect_whiteWolf|White Wolf
+2119878064|B504BFE6|effect_whiteWolf_debuff|White Wolf Is On Cooldown
 2119878065|E88691FE|item_name_solide_mutagen|Solide Mutagen
 2119878066|12FDC138|item_desc_solide_mutagen|Increases vitality by 500. Adds 3% damage reduction against all attacks
 2119878067|A6383EDC|item_name_hexer_mutagen|Hexer Mutagen
@@ -72,7 +72,7 @@
 2119878069|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Passive Bonus:Damage is reduced by $I$%.
 2119878070|CEA74418|skill_desc_sword_s18|When Vitality reaches 0, it will be restored with a bonus of 25%. Requires at least 1 Adrenaline Point, which will be consumed. Passive Bonus: Adds $I$% damage reduction.
 2119878071|C1E6A9CB|skill_desc_sword_s18_2|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. Passive Bonus: Adds $I$% damage reduction.
-2119878072|C1E6A9CC|skill_desc_sword_s18_3|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. If Geralt has White Wolf's Wrath as a level 3 skill, it will be activated instead (regardless of whether or not it is on cooldown). Passive Bonus: Adds $I$% damage reduction.
+2119878072|C1E6A9CC|skill_desc_sword_s18_3|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. If Geralt has White Wolf as a level 3 skill, it will be activated instead (regardless of whether or not it is on cooldown). Passive Bonus: Adds $I$% damage reduction.
 2119878073|C1E6AD8C|skill_desc_sword_s19_2|Casting a sign while adrenaline is full will cause Geralt to temporarily trigger and awaken his untapped potential. In this state he is invulnerble, his vitality regenerates at an accelerated pace and all of his abilities deal double damage for 30 seconds. Cannot be used again afterwords for 50 seconds.
 2119878074|C1E6AD8D|skill_desc_sword_s19_3|Casting a sign while adrenaline is full will cause Geralt to temporarily trigger and awaken his untapped potential. In this state he is invulnerble, his vitality regenerates at an accelerated pace and all of his abilities deal double damage for 40 seconds. This effect will now also be triggered in place of any effects granted by abilities that are used when Geralt's life reaches zero. Cannot be used again afterwords for 50 seconds.
 2119878075|A3A94B69|attribute_name_instant_kill_chance_mult|Brutal Strike Chance
@@ -87,5 +87,5 @@
 2119878084|D904BF7B|item_desc_silny_mutagen|Consuming this mutagen causes a Witcher to undergo a powerful, spontanious mutation, increasing their ability points by 1.
 2119878085|AE5BBDF5|item_name_silny_mutagen|Silny Mutagen
 2119878086|6415E1B|skill_desc_sword_s8_3|Increases strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. Also increses brutal strike chance by $I$%. 
-2119878086|6415699|skill_desc_sword_s6_3|Increases attack power by $I$% and critical hit damage by $I$% for all sword attacks. Passive bonus: adds $I$% damage reduction against all attacks. Now also adds $I$ bleeding damage to all strong attacks.
+2119878087|6415699|skill_desc_sword_s6_3|Increases attack power by $I$% and critical hit damage by $I$% for all sword attacks. Passive bonus: adds $I$% damage reduction against all attacks. Now also adds $I$ bleeding damage to all strong attacks.
 
