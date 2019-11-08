@@ -12,7 +12,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		
 		if (thePlayer.GetSkillLevel(S_Sword_s19) > 1)
 		{
-			durationBonus = (float)(thePlayer.GetSkillLevel(S_Sword_s19) * 10);
+			durationBonus = ((float)(thePlayer.GetSkillLevel(S_Sword_s19) * 10) - 10);
 		}
 
 		LogChannel('modDragnilarEdit',"White wolf Duration Bonus: " + FloatToString(durationBonus));
