@@ -32,18 +32,16 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
 	{	
 		super.OnEffectAdded( customParams );	
-		//target.SetImmortalityMode( AIM_Immortal, AIC_WhiteWolf );
+		//target.SetImmortalityMode( AIM_Immortal, AIC_WhiteWolf ); //Dragnilar - Immortality seemed over powered
 		target.PlayEffect('mutation_7_baff');
-		target.PlayEffect('ability_gryphon_set');
 	}
 
 	event OnEffectRemoved()
 	{
 			
-		//target.SetImmortalityMode( AIM_None, AIC_WhiteWolf );
+		//target.SetImmortalityMode( AIM_None, AIC_WhiteWolf ); //Dragnilar - Immortality seemed over powered
         target.RemoveAbilityAll(abilityName);
 		target.StopEffect( 'mutation_7_baff' );
-		target.StopEffect('ability_gryphon_set');
 		super.OnEffectRemoved();
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
 	}
