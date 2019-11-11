@@ -15,18 +15,14 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 			durationBonus = ((float)(thePlayer.GetSkillLevel(S_Sword_s19) * 5) - 5);
 		}
 
-		LogChannel('modDragnilarEdit',"White wolf Duration Bonus: " + FloatToString(durationBonus));
-
 		if(GetWitcherPlayer().IsSetBonusActive(EISB_Wolf_1))
 		{
 			theGame.GetDefinitionsManager().GetAbilityAttributeValue('SetBonusAbilityWolf_1', 'white_wolf_duration_increase', min, max);
 			durationBonus += min.valueAdditive * GetWitcherPlayer().GetSetPartsEquipped( EIST_Wolf );
-			LogChannel('modDragnilarEdit',"White wolf Duration Bonus After Wolf Set: " + FloatToString(durationBonus));
 		}
 
 		if (durationBonus > 0)
 			duration += durationBonus;
-		LogChannel('modDragnilarEdit', "White Wolf Final Duration Is: " + FloatToString(duration));
 	}
 
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
