@@ -1,7 +1,7 @@
 ;meta[language=it]
 ; id | key(hex) | key(str) | text
 2119878000|85E8FBD1|skill_desc_wolf_set_ability1|Increases the duration of White Wolf by $S$ seconds (bonus increased by number of set pieces equipped).
-2119878001|85E8FBD2|skill_desc_wolf_set_ability2|Reduces the cooldown of White Wolf by $S$ seconds. White Wolf's damage multiplier is now 3 instead of 2.
+2119878001|85E8FBD2|skill_desc_wolf_set_ability2|Reduces the cooldown of White Wolf by $S$ seconds. White Wolf's damage multiplier is now 2.25 instead of 2.
 2119878002|EFA7F95B|item_name_wolfschool_crossbow|Wolf School Crossbow
 2119878003|EAA0CAA1|item_name_super_red_mutagen|Supreme Red Mutagen
 2119878004|900F5213|item_name_super_green_mutagen|Supreme Green Mutagen
