@@ -77,7 +77,7 @@
 2119878074|A3A94B69|attribute_name_instant_kill_chance_mult|Brutal Strike Chance
 2119878075|5B76A14D|attribute_name_instant_kill|Brutal Strike
 2119878076|6414F17|skill_desc_sword_s4_3|Strong attack damage increased by $I$%. Increases bludgeoning damage resistance by $I$%. Passive Bonus: Increases vitality by $I$% and brutal strike chance by $I$%.
-2119878077|C84662F6|skill_desc_magic_s12_3|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and Frost Damage to Aard. Also grants $I$ Force damage to all of Geralts attacks. Damage bonuses scale with Geralt's level.
+2119878077|C84662F6|skill_desc_magic_s12_3|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and $I$ Frost Damage to Aard. Also grants $I$ Force damage to all of Geralts attacks. Damage bonuses scale with Geralt's level.
 2119878078|6414795|skill_desc_sword_s2_3|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend. If Control Over The Power is level 3, Rend now also releases a powerful wave of the 5th Element which inflicts slow and deals additional damage.
 2119878079|1F70C021|skill_desc_sword_s2|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%.
 2119878080|6414794|skill_desc_sword_s2_2|Deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend.
@@ -98,7 +98,7 @@
 2119878095|CEA74417|skill_desc_sword_s17|Fast attacks now have a $I$% chance to blind opponents, causing them to be completely vulnerble to critical hits and also disabling their ability to counter attacks and parry. Also increases critical hit damage by $I$%.
 2119878096|DCC2817F|item_name_repere_mutagen|Repere Mutagen
 2119878097|739B0B9|item_desc_repere_mutagen|Reduces the stamina cost of actions that consume stamina by 20%.
-2119878098|C84662F5|skill_desc_magic_s12_2|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and Frost Damage to Aard. Damage bonuses scale with Geralt's level.
+2119878098|C84662F5|skill_desc_magic_s12_2|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and $I$ Frost Damage to Aard. Damage bonuses scale with Geralt's level.
 2119878099|B1173FC2|skill_desc_magic_s12|Increases Aard sign intensity by $I$% and adds $I$ Force Damage to Aard. Damage bonus scales with Geralt's level.
 2119878100|C5548B3C|skill_name_magic_s12|Aard Mastery
 2119878101|B3C8EBBB|skill_name_magic_s6|Blessing Of Air
