@@ -29,6 +29,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	{	
 		super.OnEffectAdded( customParams );	
 		target.PlayEffect('mutation_7_baff');
+		//Dragnilar - TODO - Remove all debuffs (i.e. DOTs)
 	}
 
 	event OnEffectRemoved()
