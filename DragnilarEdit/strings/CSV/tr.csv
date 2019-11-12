@@ -44,7 +44,7 @@
 2119878041|C84666B7|skill_desc_magic_s13_3|Quen shield pushes opponents back and deals damage when it breaks with a chance for knock-down. Reflects $I$% absorbed damage back to the attacker.
 2119878042|CEA74415|skill_desc_sword_s15|Each bolt that hits its target adds $F$ Adrenaline Points. Increases critical hit damage by $I$%.
 2119878043|754D1899|skill_desc_perk_19|Battle Trance now increases critical hit chance by $I$%, an additional $I$% critical hit damage and $I$% attack power per Adrenaline Point
-2119878044|C84675BB|skill_desc_magic_s17_3|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Axii can now be used on two opponents at the same time.
+2119878044|C84675BB|skill_desc_magic_s17_3|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Axii can now be used on two opponents at the same time. Slot Bonus: Quadruples the amount of Crowns that Geralt receives from Quests and Gwent.
 2119878045|B1173FC9|skill_desc_magic_s19|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
 2119878046|B6F909BD|skill_desc_prev_magic_s19|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
 2119878047|C8467D3C|skill_desc_magic_s19_2|Increases total sign intensity by $I$%, attack power by $I$%. Axii now causes enemies to bleed, dealing $I$ damage per second, scaling with sign intensity.
@@ -107,5 +107,7 @@
 2119878104|C5548B40|skill_name_magic_s16|Yrden Mastery
 2119878105|C5548B3F|skill_name_magic_s15|Quen Mastery
 2119878106|C5548B42|skill_name_magic_s18|Axii Mastery
+2119878107|B1173FC7|skill_desc_magic_s17|Target does not move towards Geralt while he is casting Axii. Also increases the effectiveness of Axii in dialogues. Slot Bonus: Doubles the amount of crowns Geralt receives from Quests and Gwent.
+2119878108|C84675BA|skill_desc_magic_s17_2|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Slot Bonus: Triples the amount of crowns that Geralt receives from Quests and Gwent.
 
 
