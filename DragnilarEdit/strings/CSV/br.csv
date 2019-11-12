@@ -103,5 +103,9 @@
 2119878100|C5548B3C|skill_name_magic_s12|Aard Mastery
 2119878101|B3C8EBBB|skill_name_magic_s6|Blessing Of Air
 2119878102|163A8E75|skill_desc_magic_s6|Increases Sign Intensity by $I$%, attack power by $I$%, critical hit damage by $I$%. All enemies resistances are reduced by $I$% to all of Geralt's attacks. Also increases Elemental Damage resistances by $I$%.
+2119878103|B3C8EBBC|skill_name_magic_s7|Igni Mastery
+2119878104|C5548B40|skill_name_magic_s16|Yrden Mastery
+2119878105|C5548B3F|skill_name_magic_s15|Quen Mastery
+2119878106|C5548B42|skill_name_magic_s18|Axii Mastery
 
 
