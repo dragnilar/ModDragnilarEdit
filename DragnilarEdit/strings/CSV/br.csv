@@ -68,7 +68,7 @@
 2119878065|12FDC138|item_desc_solide_mutagen|Increases vitality by 500. Adds 3% damage reduction against all attacks
 2119878066|A6383EDC|item_name_hexer_mutagen|Hexer Mutagen
 2119878067|D0E14062|item_desc_hexer_mutagen|Increases Sign Intensity By 20%. Casting the Axiii sign will inflict 400 damage on an enemy and restore a portion of Geralt's life. Damage and life scales with sign intensity.
-2119878068|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Damage is reduced by $I$%.
+2119878068|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow.
 2119878069|CEA74418|skill_desc_sword_s18|When Vitality reaches 0, it will be restored with a bonus of 25%. Requires at least 1 Adrenaline Point, which will be consumed. Slot Bonus: Adds $I$% damage reduction.
 2119878070|C1E6A9CB|skill_desc_sword_s18_2|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. Slot Bonus: Adds $I$% damage reduction.
 2119878071|C1E6A9CC|skill_desc_sword_s18_3|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. If Geralt has White Wolf as a level 3 skill, it will be activated instead (regardless of whether or not it is on cooldown). Slot Bonus: Adds $I$% damage reduction.
@@ -109,5 +109,6 @@
 2119878106|C5548B42|skill_name_magic_s18|Axii Mastery
 2119878107|B1173FC7|skill_desc_magic_s17|Target does not move towards Geralt while he is casting Axii. Also increases the effectiveness of Axii in dialogues. Slot Bonus: Doubles the amount of crowns Geralt receives from Quests and Gwent.
 2119878108|C84675BA|skill_desc_magic_s17_2|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Slot Bonus: Triples the amount of crowns that Geralt receives from Quests and Gwent.
+2119878109|1F70C026|skill_desc_sword_s7|Increases Geralt's crossbow critical hit chance by $I$% and crossbow critical hit damage by $I$%. Slot Bonus: Increases critical hit damage by an additional level.
 
 
