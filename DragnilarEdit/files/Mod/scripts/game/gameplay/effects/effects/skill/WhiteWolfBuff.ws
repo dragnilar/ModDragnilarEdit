@@ -23,6 +23,10 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 		if (durationBonus > 0)
 			duration += durationBonus;
+
+		AddTimer('WhiteWolfImmortalTimer', 5.0, false);
+		LogChannel('modDragnilarEdit', "White Wolf: Starting Immortal Effect for 5 seconds");
+		target.SetImmortalityMode( AIM_Immortal, AIC_WhiteWolf );
 	}
 
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
@@ -34,11 +38,18 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 	event OnEffectRemoved()
 	{
-			
+		target.SetImmortalityMode( AIM_None, AIC_WhiteWolf );	
         target.RemoveAbilityAll(abilityName);
 		target.StopEffect( 'mutation_7_baff' );
 		super.OnEffectRemoved();
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
+	}
+
+	timer function WhiteWolfImmortalTimer( deltaTime : float, id : int )
+	{
+		LogChannel('modDragnilarEdit', "White Wolf: Ending Immortal Effect");
+		target.SetImmortalityMode( AIM_None, AIC_WhiteWolf );
+		RemoveTimer('WhiteWolfImmortalTimer');
 	}
 	
 }
