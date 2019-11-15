@@ -90,31 +90,29 @@
 2119878087|CEA74430|skill_desc_sword_s21|Fast attack damage increased by $I$%. Also increses the chance of landing a fast attack critical hit by $I$% and fast attack critical damage is incresed by $I$%. Slot Bonus: Increases critical damage bonus by an additional level.
 2119878088|E2E48FAA|skill_name_sword_s21|Firey Dancer Expertiese
 2119878089|329005EF|skill_desc_sword_1|The Fast Style, also known as "Addan Aenye, the Firey Dancer", according to Lambert. This is one of the core components of the Wolf School's training. Fast Style sword abilities allow Geralt to execute fast blows in quick succession, sacrificing damage potency for speed. Fast attacks are advantageous against agile opponents and even larger ones since they leave them with little time to retaliate. They however have difficulty versus foes who are heavily armored or using shields.
-2119878090|9ABDE7E9|skill_name_sword_1|Wolf School: Fast Style
-2119878091|9ABDE7EA|skill_name_sword_2|Wolf School: Strong Style
-2119878092|329005F0|skill_desc_sword_2|The Strong Style, also known as The Temerian Devil, according to Lambert. This is one of the core components of the Wolf School's training. Strong attacks allow Geralt to execute hard and heavy blows with his sword, dealing more damage in a single blow than with those of the fast style, at the expense of speed. It is ideal for when facing large foes or those that are heavily armored or using shields. While it is not as useful versus quick foes due to the fact that they can dodge the attacks easily, it can be devestating when used against them as well.
-2119878093|BCFF1D6D|skill_name_sword_s8|Temerian Devil Expertiese
-2119878094|E2E48F91|skill_name_sword_s17|Sinister
-2119878095|CEA74417|skill_desc_sword_s17|Fast attacks now have a $I$% chance to blind opponents, causing them to be completely vulnerble to critical hits and also disabling their ability to counter attacks and parry. Also increases critical hit damage by $I$%.
-2119878096|DCC2817F|item_name_repere_mutagen|Repere Mutagen
-2119878097|739B0B9|item_desc_repere_mutagen|Reduces the stamina cost of actions that consume stamina by 20%.
-2119878098|C84662F5|skill_desc_magic_s12_2|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and $I$ Frost Damage to Aard. Damage bonuses scale with Geralt's level.
-2119878099|B1173FC2|skill_desc_magic_s12|Increases Aard sign intensity by $I$% and adds $I$ Force Damage to Aard. Damage bonus scales with Geralt's level.
-2119878100|C5548B3C|skill_name_magic_s12|Aard Mastery
-2119878101|B3C8EBBB|skill_name_magic_s6|Blessing Of Air
-2119878102|163A8E75|skill_desc_magic_s6|Increases Sign Intensity by $I$%, attack power by $I$%, critical hit damage by $I$%. All enemies resistances are reduced by $I$% to all of Geralt's attacks. Also increases Elemental Damage resistances by $I$%.
-2119878103|B3C8EBBC|skill_name_magic_s7|Igni Mastery
-2119878104|C5548B40|skill_name_magic_s16|Yrden Mastery
-2119878105|C5548B3F|skill_name_magic_s15|Quen Mastery
-2119878106|C5548B42|skill_name_magic_s18|Axii Mastery
-2119878107|B1173FC7|skill_desc_magic_s17|Target does not move towards Geralt while he is casting Axii. Also increases the effectiveness of Axii in dialogues. Slot Bonus: Doubles the amount of crowns Geralt receives from Quests and Gwent.
-2119878108|C84675BA|skill_desc_magic_s17_2|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Slot Bonus: Triples the amount of crowns that Geralt receives from Quests and Gwent.
-2119878109|1F70C026|skill_desc_sword_s7|Increases the stamina of Roach or any other horse by $I$ while Geralt is on horse back and also increases his attack power by $I$% while he is on horse back.
-2119878110|E2E48F8D|skill_name_sword_s13|Wolven Crossbow Mastery
-2119878111|9ABDE7EC|skill_name_sword_4|Wolf School Combat Techniques
-2119878112|1F70C023|skill_desc_sword_s4|Geralt, being a Witcher of the Wolf School, has been trained in the arts of utilizing the cross bow, horse back riding and of course, monster slaying. Being the best of the best, Geralt is capable of course able to further his training in these arts.
-2119878113|BCFF1D6C|skill_name_sword_s7|Horseback Training
-2119878114|2CE316B1|hud_combat_log_critical_hit|$S$ strikes a critical hit for $S$ damage.
-2119878115|9C53D2BB|hud_combat_log_killed|$S$ has died. The fatal blow was dealt by $S$ with $S$ damage.
+2119878090|329005F0|skill_desc_sword_2|The Strong Style, also known as The Temerian Devil, according to Lambert. This is one of the core components of the Wolf School's training. Strong attacks allow Geralt to execute hard and heavy blows with his sword, dealing more damage in a single blow than with those of the fast style, at the expense of speed. It is ideal for when facing large foes or those that are heavily armored or using shields. While it is not as useful versus quick foes due to the fact that they can dodge the attacks easily, it can be devestating when used against them as well.
+2119878091|BCFF1D6D|skill_name_sword_s8|Temerian Devil Expertiese
+2119878092|E2E48F91|skill_name_sword_s17|Sinister
+2119878093|CEA74417|skill_desc_sword_s17|Fast attacks now have a $I$% chance to blind opponents, causing them to be completely vulnerble to critical hits and also disabling their ability to counter attacks and parry. Also increases critical hit damage by $I$%.
+2119878094|DCC2817F|item_name_repere_mutagen|Repere Mutagen
+2119878095|739B0B9|item_desc_repere_mutagen|Reduces the stamina cost of actions that consume stamina by 20%.
+2119878096|C84662F5|skill_desc_magic_s12_2|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and $I$ Frost Damage to Aard. Damage bonuses scale with Geralt's level.
+2119878097|B1173FC2|skill_desc_magic_s12|Increases Aard sign intensity by $I$% and adds $I$ Force Damage to Aard. Damage bonus scales with Geralt's level.
+2119878098|C5548B3C|skill_name_magic_s12|Aard Mastery
+2119878099|B3C8EBBB|skill_name_magic_s6|Blessing Of Air
+2119878100|163A8E75|skill_desc_magic_s6|Increases Sign Intensity by $I$%, attack power by $I$%, critical hit damage by $I$%. All enemies resistances are reduced by $I$% to all of Geralt's attacks. Also increases Elemental Damage resistances by $I$%.
+2119878101|B3C8EBBC|skill_name_magic_s7|Igni Mastery
+2119878102|C5548B40|skill_name_magic_s16|Yrden Mastery
+2119878103|C5548B3F|skill_name_magic_s15|Quen Mastery
+2119878104|C5548B42|skill_name_magic_s18|Axii Mastery
+2119878105|B1173FC7|skill_desc_magic_s17|Target does not move towards Geralt while he is casting Axii. Also increases the effectiveness of Axii in dialogues. Slot Bonus: Doubles the amount of crowns Geralt receives from Quests and Gwent.
+2119878106|C84675BA|skill_desc_magic_s17_2|Target does not move towards Geralt while he is casting Axii. Increases the effectiveness of Axii in dialogues. Reduces Axii casting time. Slot Bonus: Triples the amount of crowns that Geralt receives from Quests and Gwent.
+2119878107|1F70C026|skill_desc_sword_s7|Increases the stamina of Roach or any other horse by $I$ while Geralt is on horse back and also increases his attack power by $I$% while he is on horse back.
+2119878108|E2E48F8D|skill_name_sword_s13|Wolven Crossbow Mastery
+2119878109|9ABDE7EC|skill_name_sword_4|Utility
+2119878110|1F70C023|skill_desc_sword_s4|Geralt, being a Witcher of the Wolf School, has been trained in the arts of utilizing the cross bow, horse back riding and of course, monster slaying. Being the best of the best, Geralt is capable of course able to further his training in these arts.
+2119878111|BCFF1D6C|skill_name_sword_s7|Horseback Training
+2119878112|2CE316B1|hud_combat_log_critical_hit|$S$ strikes a critical hit for $S$ damage.
+2119878113|9C53D2BB|hud_combat_log_killed|$S$ has died. The fatal blow was dealt by $S$ with $S$ damage.
 
 
