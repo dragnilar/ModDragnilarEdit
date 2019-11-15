@@ -34,9 +34,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	}
 
 	event OnEffectRemoved()
-	{
-		//Dragnilar - Remove the immortal effect in case it is still active.
-		target.SetImmortalityMode( AIM_None, AIC_WhiteWolf );	
+	{	
         target.RemoveAbilityAll(abilityName);
 		target.StopEffect( 'mutation_7_baff' );
 		super.OnEffectRemoved();
