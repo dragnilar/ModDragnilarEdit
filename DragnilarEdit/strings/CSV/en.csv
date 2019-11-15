@@ -114,5 +114,7 @@
 2119878111|9ABDE7EC|skill_name_sword_4|Wolf School Combat Techniques
 2119878112|1F70C023|skill_desc_sword_s4|Geralt, being a Witcher of the Wolf School, has been trained in the arts of utilizing the cross bow, horse back riding and of course, monster slaying. Being the best of the best, Geralt is capable of course able to further his training in these arts.
 2119878113|BCFF1D6C|skill_name_sword_s7|Horseback Training
+2119878114|2CE316B1|hud_combat_log_critical_hit|$S$ strikes a critical hit for $S$ damage.
+2119878115|9C53D2BB|hud_combat_log_killed|$S$ has died. The fatal blow was dealt by $S$ with $S$ damage.
 
 
