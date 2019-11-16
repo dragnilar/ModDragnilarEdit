@@ -29,7 +29,7 @@
 2119878026|1F70C025|skill_desc_sword_s6|Increases Geralt's attack power by $I$% and critical hit damage by $I$% for all sword attacks. Also adds $I$% damage reduction against all attacks. Slot Bonus: Increases bleeding damage effects by 25%.
 2119878027|1F70C027|skill_desc_sword_s8|Increases Geralt's strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. Slot Bonus: Increases critical damage and hit bonus by 1 skill level.
 2119878028|163A8E78|skill_desc_magic_s9|Increases Geralt's chance to apply Burning by $I$%. Adds $I$ fire damage to all attacks (increases with character level).
-2119878029|8D17AA9C|skill_desc_alchemy_s1|Increases Geralt's potion overdose threshold by $I$%. Reduces potion toxicity by $I$.
+2119878029|8D17AA9C|skill_desc_alchemy_s1|Increases Geralt's potion overdose threshold by $I$%. Reduces potion toxicity by $I$. Slot Bonus: Increases overdose threshold bonus by 1 level and toxicity reduction by 4.
 2119878030|C5548B3B|skill_name_magic_s11|Control Over The Power
 2119878031|B1173FC1|skill_desc_magic_s11|Increases Geralt's damage resistance by $I$% to all attacks. Also increases sign intensity by $I$%. Adds $I$ shock damage to all attacks.
 2119878032|B6F909B5|skill_desc_prev_magic_s11|Increases Geralt's damage resistance, spell power and provides a passive shock damage bonus to all attacks.
