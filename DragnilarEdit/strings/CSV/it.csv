@@ -117,5 +117,6 @@
 2119878114|CEA74411|skill_desc_sword_s11|After a successful counterattack, Geralt's next attack deals +$I$% damage per skill level. Also increases damage resistance by $I$%. Slot bonus: Increases damage by an additional skill level and if Geralt is in White Wolf mode, his counter attacks cost no stamina.
 2119878115|C1E68F84|skill_desc_sword_s11_2|After a successful counterattack, Geralt's next attack deals +$I$% damage per skill level with a chance of knockdown based on the number of Adrenaline Points. Also increases damage resistance by $I$%. Slot bonus: Increases damage by an additional skill level and if Geralt is in White Wolf mode, his counter attacks cost no stamina.
 2119878116|C1E68F85|skill_desc_sword_s11_3|After a successful counterattack, Geralt's next attack is a critical hit with +$I$% damage per skill level with a chance of knockdown based on the number of Adrenaline Points. Also increases damage resistance by $I$%. Slot bonus: Increases damage by an additional skill level and if Geralt is in White Wolf mode, his counter attacks cost no stamina.
+2119878117|1F70C024|skill_desc_sword_s5|Geralt's Fast Attacks now also can cause enemies to bleed. While bleeding, enemies lose $I$ life points per second for $I$ seconds. Slot Bonus: White Wolf's damage multiplier effects damage over time effects.
 
 
