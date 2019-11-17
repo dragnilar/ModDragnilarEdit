@@ -29,15 +29,25 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
 	{	
-		super.OnEffectAdded( customParams );	
-		target.PlayEffect('mutation_7_baff');
+		super.OnEffectAdded( customParams );
+		FactsAdd("whitewolfactive");	
+		target.PlayEffect('ability_gryphon_active');
+		target.PlayEffect('yrden_slowdown');
+		target.PlayEffect('yrden_slowdown');
+		en = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\adtomes\poisonyrden\energyorig.w2ent",true), target.GetWorldPosition() );
+		en.PlayEffect('yrden_slowdown');
+		en.CreateAttachment(  target );
 	}
 
 	event OnEffectRemoved()
 	{	
-        target.RemoveAbilityAll(abilityName);
-		target.StopEffect( 'mutation_7_baff' );
 		super.OnEffectRemoved();
+		FactsRemove("whitewolfactive");
+		target.StopEffect('ability_gryphon_active');
+		target.StopEffect('yrden_slowdown');
+		en.StopAllEffects();
+		en.DestroyAfter(2);
+		target.RemoveAbilityAll(abilityName);
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
 	}
 	
