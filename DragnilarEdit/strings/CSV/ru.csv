@@ -16,7 +16,7 @@
 2119878013|15DDA917|skill_desc_alchemy_s13|When Geralt consumes a mutagen decoction, his max Vitality is increased by $I$ for the decoction's effective duration. Increases Slashing, Piercing and Bludgeoning resistance by $I$%.
 2119878014|15DDA918|skill_desc_alchemy_s14|Extends effective duration of all mutagen decoctions that Geralt has consumed by $I$%.Increases poison damage resistance by $I$%.
 2119878015|1F70C022|skill_desc_sword_s3|Each of Geralt's Adrenaline points increase the chance of causing a brutal strike by $I$%. Brutal strikes increase overall critical hit damage bonuses by 25%. Increases critical hit damage by $I$% and increases damage resistance by $I$%. Slot Bonus: Increases Brutal Strike chance bonus for adrenaline by 50%.
-2119878016|163A8E76|skill_desc_magic_s7|Increases Geralt's Igni Sign intensity by $I$%. Increases burning resistance by $I$%.
+2119878016|163A8E76|skill_desc_magic_s7|Increases Geralt's Igni Sign intensity by $I$%. Also increases the chance Igni will apply burning by $I$%. Increases burning resistance by $I$%.
 2119878017|B1173FC6|skill_desc_magic_s16|Increases Geralt's Yrden Sign intensity by $I$%. Increases elemental damage resistance by $I$%.
 2119878018|FF5FE15|skill_name_alchemy_s17|Butcher of Blaviken
 2119878019|2A74C610|skill_desc_prev_alchemy_s18|Every known level 1 alchemy formula increases Geralt's maximum Toxicity by 1. Reduces mutagen decoction toxicity by 10.
@@ -28,7 +28,7 @@
 2119878025|BCFF1D6B|skill_name_sword_s6|Violence
 2119878026|1F70C025|skill_desc_sword_s6|Increases Geralt's attack power by $I$% and critical hit damage by $I$% for all sword attacks. Also adds $I$% damage reduction against all attacks. Slot Bonus: If Geralt is in White Wolf mode, his attack speed is 10% faster.
 2119878027|1F70C027|skill_desc_sword_s8|Increases Geralt's strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. Slot Bonus: Increases critical damage and hit bonus by 1 skill level.
-2119878028|163A8E78|skill_desc_magic_s9|Increases Geralt's chance to apply Burning by $I$%. Adds $I$ fire damage to all attacks (increases with character level).
+2119878028|163A8E78|skill_desc_magic_s9|Increases Geralt's Sign Intensity by $I$%, attack power by $I$%, critical hit damage by $I$%. All enemies resistances are reduced by $I$% to all of Geralt's attacks. Also increases Elemental Damage resistances by $I$%.
 2119878029|8D17AA9C|skill_desc_alchemy_s1|Increases Geralt's potion overdose threshold by $I$%. Reduces potion toxicity by $I$. Slot Bonus: Increases overdose threshold bonus by 1 level and toxicity reduction by 4.
 2119878030|C5548B3B|skill_name_magic_s11|Control Over The Power
 2119878031|B1173FC1|skill_desc_magic_s11|Increases Geralt's damage resistance by $I$% to all attacks. Also increases sign intensity by $I$%. Adds $I$ shock damage to all attacks.
@@ -121,5 +121,7 @@
 2119878118|1F70C020|skill_desc_sword_s1|Allows Geralt to use a group sword attack that strikes all surrounding foes, with a 15% damage penalty per hit. Maintaining the attack consumes Stamina and Adrenaline. Consumes $I$% less Stamina and Adrenaline. Slot Bonus: If White Wolf is active, consumes 25% less stamina.
 2119878119|64143D3|skill_desc_sword_s1_2|Allows Geralt to use a group sword attack that strikes all surrounding foes, with a 10% damage penalty per hit. Maintaining the attack consumes Stamina and Adrenaline. Consumes $I$% less Stamina and Adrenaline. Slot Bonus: If White Wolf is active, consumes 25% less stamina.
 2119878120|64143D4|skill_desc_sword_s1_3|Allows Geralt to use a group sword attack that strikes all surrounding foes, with a 5% damage penalty per hit. Maintaining the attack consumes Stamina and Adrenaline. Consumes $I$% less Stamina and Adrenaline. Slot Bonus: If White Wolf is active, consumes 25% less stamina.
+2119878121|71D0D4AA|skill_desc_magic_s7_3|Increases Geralt's Igni Sign intensity by $I$%. Also increases the chance Igni will apply burning by $I$%. Increases burning resistance by $I$%. Now adds $I$ fire damage to all of Geralt's attacks (increases with character level).
+2119878122|B3C8EBBE|skill_name_magic_s9|Blessing Of Fire
 
 
