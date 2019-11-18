@@ -123,5 +123,6 @@
 2119878120|64143D4|skill_desc_sword_s1_3|Allows Geralt to use a group sword attack that strikes all surrounding foes, with a 5% damage penalty per hit. Maintaining the attack consumes Stamina and Adrenaline. Consumes $I$% less Stamina and Adrenaline. Slot Bonus: If White Wolf is active, consumes 25% less stamina.
 2119878121|71D0D4AA|skill_desc_magic_s7_3|Increases Geralt's Igni Sign intensity by $I$%. Also increases the chance Igni will apply burning by $I$%. Increases burning resistance by $I$%. Now adds $I$ fire damage to all of Geralt's attacks (increases with character level).
 2119878122|B3C8EBBE|skill_name_magic_s9|Blessing Of Fire
+2119878123|8D17AAA0|skill_desc_alchemy_s5|Blade oils increase Geralt's armor by $I$ against the foes that they target. The armor bonus scales with Geralt's level. Slot Bonus: Increases the armor amount by 2 skill levels.
 
 
