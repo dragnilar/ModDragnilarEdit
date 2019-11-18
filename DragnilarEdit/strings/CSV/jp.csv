@@ -57,7 +57,7 @@
 2119878054|B1C041CE|item_name_viper_gloves_final|White Wolf's Gauntlets
 2119878055|B6171216|item_name_viper_pants_final|White Wolf's Pants
 2119878056|81DDEA3B|item_name_viper_boots_final|White Wolf's Boots
-2119878057|15DDA933|skill_desc_alchemy_s20|Increases Geralt's maximum Vitality by $I$% when Toxicity exceeds the safe threshold. Also increases damage reduction by $I$%.
+2119878057|15DDA933|skill_desc_alchemy_s20|Increases Geralt's maximum Vitality by $I$% when Toxicity exceeds the safe threshold. Also increases damage reduction by $I$%. Slot Bonus: Increases damage reduction by 2 levels.
 2119878058|37010020|item_name_infatigable_mutagen|Infatigable Mutagen
 2119878059|95A84526|item_desc_infatigable_mutagen|Increases attack power by 20%. Actions such as sprinting and jumping do not consume stamina outside of combat.
 2119878060|FC921528|item_desc_mutagen_24|Gain 50% to Attack and Sign Power, +5/s to Stamina regeneration and +25% to Adrenaline gain while health is at 20% or lower. Resets when health is regained and at the end of combat. 10s cooldown.
