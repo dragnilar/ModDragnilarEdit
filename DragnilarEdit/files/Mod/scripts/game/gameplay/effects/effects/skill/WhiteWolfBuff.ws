@@ -2,6 +2,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 {
 	default effectType = EET_WhiteWolfBuff;
 	default isPositive = true;
+	var buffEntity		:CEntity;
 
 	protected function CalculateDuration(optional setInitialDuration : bool)
 	{
@@ -34,9 +35,9 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		target.PlayEffect('ability_gryphon_active');
 		target.PlayEffect('yrden_slowdown');
 		target.PlayEffect('yrden_slowdown');
-		en = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\adtomes\poisonyrden\energyorig.w2ent",true), target.GetWorldPosition() );
-		en.PlayEffect('yrden_slowdown');
-		en.CreateAttachment(  target );
+		buffEntity = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\adtomes\poisonyrden\energyorig.w2ent",true), target.GetWorldPosition() );
+		buffEntity.PlayEffect('yrden_slowdown');
+		buffEntity.CreateAttachment(  target );
 	}
 
 	event OnEffectRemoved()
@@ -45,8 +46,8 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		FactsRemove("whitewolfactive");
 		target.StopEffect('ability_gryphon_active');
 		target.StopEffect('yrden_slowdown');
-		en.StopAllEffects();
-		en.DestroyAfter(2);
+		buffEntity.StopAllEffects();
+		buffEntity.DestroyAfter(2);
 		target.RemoveAbilityAll(abilityName);
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
 	}
