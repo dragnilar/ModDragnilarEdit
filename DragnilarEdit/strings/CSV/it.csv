@@ -110,7 +110,7 @@
 2119878107|1F70C026|skill_desc_sword_s7|Increases the stamina of Roach or any other horse by $I$ while Geralt is on horse back and also increases his attack power by $I$% while he is on horse back.
 2119878108|E2E48F8D|skill_name_sword_s13|Wolven Crossbow Mastery
 2119878109|9ABDE7EC|skill_name_sword_4|Utility
-2119878110|1F70C023|skill_desc_sword_s4|Geralt, being a Witcher of the Wolf School, has been trained in the arts of utilizing the cross bow, horse back riding and of course, monster slaying. Being the best of the best, Geralt is capable of course able to further his training in these arts.
+2119878110|329005F2|skill_desc_sword_4|Geralt, being a Witcher of the Wolf School, has been trained in the arts of utilizing the cross bow, horse back riding and of course, monster slaying. Being the best of the best, Geralt is capable of course able to further his training in these arts.
 2119878111|BCFF1D6C|skill_name_sword_s7|Horseback Training
 2119878112|2CE316B1|hud_combat_log_critical_hit|$S$ strikes a critical hit for $S$ damage.
 2119878113|9C53D2BB|hud_combat_log_killed|$S$ has died. The fatal blow was dealt by $S$ with $S$ damage.
@@ -126,5 +126,6 @@
 2119878123|8D17AAA0|skill_desc_alchemy_s5|Blade oils increase Geralt's armor by $I$ against the foes that they target. The armor bonus scales with Geralt's level. Slot Bonus: Increases the armor amount by 2 levels.
 2119878124|8D17AAA3|skill_desc_alchemy_s8|Increases the maximum number of bombs Geralt can carry by $I$. Slot Bonus: Adds 2 additional levels.
 2119878125|8D17AA9F|skill_desc_alchemy_s4|If Geralt drinks a potion, he has a $I$% chance of activiating the effects of another randomly selected potion, without additional toxicity cost. Slot Bonus: Doubles the duration of the random potion.
+2119878126|329005F1|skill_desc_sword_3|Geralt, being a Witcher of the Wolf School, has been trained in various combat defensive techniques. These range from utilizing a Witcher's sword to deflect arrows and blows, dodging or utilizing one's own body to properly absorb damage.
 
 
