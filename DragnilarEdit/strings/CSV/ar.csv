@@ -125,5 +125,6 @@
 2119878122|B3C8EBBE|skill_name_magic_s9|Blessing Of Fire
 2119878123|8D17AAA0|skill_desc_alchemy_s5|Blade oils increase Geralt's armor by $I$ against the foes that they target. The armor bonus scales with Geralt's level. Slot Bonus: Increases the armor amount by 2 levels.
 2119878124|8D17AAA3|skill_desc_alchemy_s8|Increases the maximum number of bombs Geralt can carry by $I$. Slot Bonus: Adds 2 additional levels.
+2119878125|8D17AA9F|skill_desc_alchemy_s4|If Geralt drinks a potion, he has a $I$% chance of activiating the effects of another randomly selected potion, without additional toxicity cost. Slot Bonus: Doubles the duration of the random potion.
 
 
