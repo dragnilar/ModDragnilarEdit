@@ -50,7 +50,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		buffEntity.DestroyAfter(2);
 		target.RemoveAbilityAll(abilityName);
 		if (thePlayer.IsSkillSlotted(S_Sword_s19))
-			DrainFocus(GetStat(BCS_Focus));
+			thePlayer.DrainFocus(thePlayer.GetStat(BCS_Focus));
 		thePlayer.AddEffectDefault( EET_WhiteWolfDebuff, NULL, "White Wolf Debuff", false );
 	}
 	
