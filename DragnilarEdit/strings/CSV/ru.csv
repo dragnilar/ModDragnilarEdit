@@ -136,5 +136,8 @@
 2119878133|B1173FC8|skill_desc_magic_s18|Increases Geralt's Axii sign intensity by $I$ and adds $I$ Frost Damage to all of Geralt's attacks. Slot Bonus: Increases the Frost Damage bonus by 1 ability level.
 2119878134|1E3485AE|item_name_rogue_mutagen|Rogue Mutagen
 2119878135|48DD8734|item_desc_rogue_mutagen|Increases Geralt's Vitality by 500. Also adds a 5% chance to cause poisoning to all of Geralt's attacks.
+2119878136|CEA74410|skill_desc_sword_s10|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to deflect arrows while parrying. Slot Bonus: Increases weapon damage resistance by 1 ability level.
+2119878137|C1E68BC3|skill_desc_sword_s10_2|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to reflect arrows back at the attacker with a perfectly timed parry. Slot Bonus: Increases weapon damage resistance by 1 ability level.
+2119878138|C1E68BC4|skill_desc_sword_s10_3|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to reflect arrows back at the attacker with a perfectly timed parry, dealing double damage. Slot Bonus: Increases weapon damage resistance by 1 ability level.
 
 
