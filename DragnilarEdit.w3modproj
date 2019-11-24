@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <W3Mod xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LastOpenedFiles />
+  <LastOpenedFiles>
+    <string>F:\dragn\Documents\Witcher3Mods\modDragnilarEdit\DragnilarEdit\files\DLC\Bundle\dlc\adtomes\moddragnilaredit.reddlc</string>
+  </LastOpenedFiles>
   <Name>DragnilarEdit</Name>
 </W3Mod>
