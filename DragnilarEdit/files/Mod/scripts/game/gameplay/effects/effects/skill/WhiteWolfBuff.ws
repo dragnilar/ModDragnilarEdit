@@ -31,6 +31,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	event OnEffectAdded(optional customParams : W3BuffCustomParams)
 	{	
 		super.OnEffectAdded( customParams );
+		target.AddAbilityMultiple(abilityName, GetWitcherPlayer().GetMaxHealth() * 0.05);
 		FactsAdd("whitewolfactive");	
 		target.PlayEffect('ability_gryphon_active');
 		target.PlayEffect('yrden_slowdown');
