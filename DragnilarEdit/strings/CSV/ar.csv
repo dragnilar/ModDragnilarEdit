@@ -66,7 +66,7 @@
 2119878063|12FDC138|item_desc_solide_mutagen|Increases vitality by 500. Adds 3% damage reduction against all attacks
 2119878064|A6383EDC|item_name_hexer_mutagen|Hexer Mutagen
 2119878065|D0E14062|item_desc_hexer_mutagen|Increases Sign Intensity By 20%. Casting the Axiii sign will inflict 400 damage on an enemy and restore a portion of Geralt's life. Damage and life scales with sign intensity.
-2119878066|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Also increases Geralts crossbow damage by $I$% (scales with character level). Also increases Geralt's critical hit chance by $I$% and critical hit damage by $I$% with crossbows. Slot Bonus: Increases attack power and critical hit damage by an additional level.
+2119878066|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Also increases Geralts crossbow damage by $I$% (scales with character level). Also increases Geralt's critical hit chance by $I$% and critical hit damage by $I$% with crossbows. Crossbow critical hits also now disable monster special abilities for $I$ seconds. Slot Bonus: Increases attack power and critical hit damage by an additional level.
 2119878067|CEA74418|skill_desc_sword_s18|When Geralt's Vitality reaches 0, it will be restored with a bonus of 25%. Requires at least 1 Adrenaline Point, which will be consumed. Slot Bonus: Adds $I$% damage reduction.
 2119878068|C1E6A9CB|skill_desc_sword_s18_2|When Geralt's Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. Slot Bonus: Adds $I$% damage reduction.
 2119878069|C1E6A9CC|skill_desc_sword_s18_3|When Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. If Geralt has White Wolf at level 3, it will be activated instead (regardless of whether or not it is on cooldown). Slot Bonus: Adds $I$% damage reduction.
@@ -138,5 +138,7 @@
 2119878135|CEA74410|skill_desc_sword_s10|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to deflect arrows while parrying. Slot Bonus: Increases weapon damage resistance by 1 ability level.
 2119878136|C1E68BC3|skill_desc_sword_s10_2|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to reflect arrows back at the attacker with a perfectly timed parry. Slot Bonus: Increases weapon damage resistance by 1 ability level.
 2119878137|C1E68BC4|skill_desc_sword_s10_3|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to reflect arrows back at the attacker with a perfectly timed parry, dealing double damage. Slot Bonus: Increases weapon damage resistance by 1 ability level.
+2119878138|E2E48F8C|skill_name_sword_s12|Monster Slayer
+2119878139|CEA74412|skill_desc_sword_s12|Increases Geralt's overall attack power against monsters by $I$%. Also increases Geralt's resistances to Bleeding, Poison and Burning effects by $I$%. Slot Bonus: Increases bonuses by 1 ability level.
 
 
