@@ -36,7 +36,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		target.PlayEffect('ability_gryphon_active');
 		target.PlayEffect('yrden_slowdown');
 		target.PlayEffect('yrden_slowdown');
-		buffEntity = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\dragnilarEdit\poisonyrden\energyorig.w2ent",true), target.GetWorldPosition() );
+		buffEntity = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\DragnilarEdit\poisonyrden\energyorig.w2ent",true), target.GetWorldPosition() );
 		buffEntity.PlayEffect('yrden_slowdown');
 		buffEntity.CreateAttachment(  target );
 	}
