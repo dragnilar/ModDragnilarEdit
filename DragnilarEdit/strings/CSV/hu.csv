@@ -57,15 +57,15 @@
 2119878054|81DDEA3B|item_name_viper_boots_final|White Wolf's Boots
 2119878055|15DDA933|skill_desc_alchemy_s20|Increases Geralt's maximum Vitality by $I$% when Toxicity exceeds the safe threshold. Also increases damage reduction by $I$%. Slot Bonus: Increases damage reduction by 2 levels.
 2119878056|37010020|item_name_infatigable_mutagen|Infatigable Mutagen
-2119878057|95A84526|item_desc_infatigable_mutagen|Increases Geralt's attack power by 20% and increases White Wolf's invulnerbility duration to 10 seconds. Geralt does not use stamina when jumping or sprinting outside combat.
+2119878057|95A84526|item_desc_infatigable_mutagen|Powerful Mutagen designed by Geralt himself, in spirit of the Wolf School. White Wolf's invulnerbility duration to 10 seconds. Geralt does not use stamina when jumping or sprinting outside combat.
 2119878058|FC921528|item_desc_mutagen_24|Gain 50% to Attack and Sign Power, +5/s to Stamina regeneration and +25% to Adrenaline gain while health is at 20% or lower. Resets when health is regained and at the end of combat. 10s cooldown.
 2119878059|FC92152B|item_desc_mutagen_27|On casting a sign in combat, increases stamina regeneration by 1% and sign power by 1%, up to a maximum of 50%. The effect lasts for the duration of the decoction or until meditating.
 2119878060|A6838C16|effect_white_wolf|White Wolf
 2119878061|F3D3009D|effect_white_wolf_debuff|White Wolf Is On Cooldown
 2119878062|E88691FE|item_name_solide_mutagen|Solide Mutagen
-2119878063|12FDC138|item_desc_solide_mutagen|Increases vitality by 500. Adds 3% damage reduction against all attacks
+2119878063|12FDC138|item_desc_solide_mutagen|Powerful mutagen designed by the Bear School Witchers. Adds 3% damage reduction against all attacks after all other damage reduction is applied.
 2119878064|A6383EDC|item_name_hexer_mutagen|Hexer Mutagen
-2119878065|D0E14062|item_desc_hexer_mutagen|Increases Sign Intensity By 20%. Casting the Axiii sign will inflict 400 damage on an enemy and restore a portion of Geralt's life. Damage and life scales with sign intensity.
+2119878065|D0E14062|item_desc_hexer_mutagen|Powerful Mutagen designed by the Gryphon School Witchers. Casting the Axiii sign will inflict 400 damage on an enemy and restore a portion of Geralt's life. Damage and life scales with sign intensity.
 2119878066|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Also increases Geralts crossbow damage by $I$% (scales with character level). Also increases Geralt's critical hit chance by $I$% and critical hit damage by $I$% with crossbows. Crossbow critical hits also now disable monster special abilities for $I$ seconds. Slot Bonus: Increases attack power and critical hit damage by an additional level.
 2119878067|CEA74418|skill_desc_sword_s18|When Geralt's Vitality reaches 0, it will be restored with a bonus of 25%. Requires at least 1 Adrenaline Point, which will be consumed. Slot Bonus: Adds $I$% damage reduction.
 2119878068|C1E6A9CB|skill_desc_sword_s18_2|When Geralt's Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. Slot Bonus: Adds $I$% damage reduction.
@@ -81,7 +81,7 @@
 2119878078|6414794|skill_desc_sword_s2_2|Allows Geralt to use a powerful heavy sword attack that deals up to $I$% damage in proportion to the Stamina consumed. Ignores enemy Defense and increases critical hit chance by $I$%. Adrenaline Points increase total damage by $I$%. Geralt is shielded by an Exploding Quen shield momentarily while using Rend.  Slot Bonus: If White Wolf is active, Rend releases a powerful wave of the 5th Element that deals additional damage and slows enemies.
 2119878079|C1E6A24A|skill_desc_sword_s16_3|Geralt's Adrenaline Point loss upon taking damage is lowered by $I$%. Also increases attack power by $I$%. Now also adds $I$% damage reduction per Adrenaline Point. Slot Bonus: Doubles the effect of the damage reduction and if White Wolf is active, adds 10% additional damage reduction.
 2119878080|1673B19E|item_name_recipe_for_silny_mutagen|Silny Mutagen Formula
-2119878081|D904BF7B|item_desc_silny_mutagen|Consuming this mutagen causes a Witcher to undergo a powerful, spontanious mutation, increasing their ability points by 1.
+2119878081|D904BF7B|item_desc_silny_mutagen|A powerful and strange Mutagen that Geralt discovered from Moreau's experiments. Only Geralt is capable of surviving its effects. If Geralt consumes this Mutagen, he will undergo a powerful, spontanious mutation. Increases Geralt's ability points by 1.
 2119878082|AE5BBDF5|item_name_silny_mutagen|Silny Mutagen
 2119878083|6415E1B|skill_desc_sword_s8_3|Increases Geralt's strong critical hit chance by $I$% and strong attack critical hit damage by $I$%. Strong attacks now crush enemy armor and reduce their damage resistance by $I$%. Also increses brutal strike chance by $I$%. Slot Bonus: Increases brutal strike chance by 2, critical damage and hit bonus by 1 level.
 2119878084|CEA74430|skill_desc_sword_s21|Geralt's fast attack damage increased by $I$%. Also increses the chance of landing a fast attack critical hit by $I$% and fast attack critical damage is incresed by $I$%. Slot Bonus: Increases critical damage bonus by an additional level.
@@ -92,7 +92,7 @@
 2119878089|E2E48F91|skill_name_sword_s17|Sinister
 2119878090|CEA74417|skill_desc_sword_s17|Geralt's fast attacks now have a $I$% chance to blind opponents, causing them to be completely vulnerble to critical hits and also disabling their ability to counter attacks and parry. Also increases critical hit damage by $I$%. Slot Bonus: If White Wolf is active, Geralt's fast attacks inflict a 20% slowdown effect on opponents for 5s.
 2119878091|DCC2817F|item_name_repere_mutagen|Repere Mutagen
-2119878092|739B0B9|item_desc_repere_mutagen|Reduces the stamina cost of actions that consume stamina by 20%.
+2119878092|739B0B9|item_desc_repere_mutagen|Powerful Mutagen designed by the Cat School Witchers. Reduces the stamina cost of actions that consume stamina by 20%.
 2119878093|C84662F5|skill_desc_magic_s12_2|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and $I$ Frost Damage to Aard. Damage bonuses scale with Geralt's level. Slot Bonus: Doubles Aard damage effects.
 2119878094|B1173FC2|skill_desc_magic_s12|Increases Aard sign intensity by $I$% and adds $I$ Force Damage to Aard. Damage bonus scales with Geralt's level. Slot Bonus: Doubles Aard damage effect.
 2119878095|C5548B3C|skill_name_magic_s12|Aard Mastery
@@ -134,7 +134,7 @@
 2119878131|CB404984|item_name_repair_kit_weapon_4|Grand Master's Weapon Repair Kit
 2119878132|B1173FC8|skill_desc_magic_s18|Increases Geralt's Axii sign intensity by $I$ and adds $I$ Frost Damage to all of Geralt's attacks. Slot Bonus: Increases the Frost Damage bonus by 1 ability level.
 2119878133|1E3485AE|item_name_rogue_mutagen|Rogue Mutagen
-2119878134|48DD8734|item_desc_rogue_mutagen|Increases Geralt's Vitality by 500. Also adds a 5% chance to cause poisoning to all of Geralt's attacks.
+2119878134|48DD8734|item_desc_rogue_mutagen|Powerful Mutagen designed by the Manticore School Witchers.Adds a 5% chance to cause poisoning to all of Geralt's attacks.
 2119878135|CEA74410|skill_desc_sword_s10|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to deflect arrows while parrying. Slot Bonus: Increases weapon damage resistance by 1 ability level.
 2119878136|C1E68BC3|skill_desc_sword_s10_2|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to reflect arrows back at the attacker with a perfectly timed parry. Slot Bonus: Increases weapon damage resistance by 1 ability level.
 2119878137|C1E68BC4|skill_desc_sword_s10_3|Increases Geralt's weapon damage resistance by $I$%. Also allows Geralt to reflect arrows back at the attacker with a perfectly timed parry, dealing double damage. Slot Bonus: Increases weapon damage resistance by 1 ability level.
