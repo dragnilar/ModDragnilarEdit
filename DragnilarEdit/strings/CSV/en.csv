@@ -17,7 +17,7 @@
 2119878014|15DDA918|skill_desc_alchemy_s14|Extends effective duration of all mutagen decoctions that Geralt has consumed by $I$%.Increases poison damage resistance by $I$%. Slot Bonus: Increases poison resistance by 2 levels
 2119878015|1F70C022|skill_desc_sword_s3|Each of Geralt's Adrenaline points increase the chance of causing a brutal strike by $I$%. Brutal strikes increase overall critical hit damage bonuses by 25%. Increases critical hit damage by $I$% and increases damage resistance by $I$%. Slot Bonus: Increases Brutal Strike chance bonus for adrenaline by 50%.
 2119878016|163A8E76|skill_desc_magic_s7|Increases Geralt's Igni Sign intensity by $I$%. Also increases the chance Igni will apply burning by $I$%. Increases burning resistance by $I$%.
-2119878017|B1173FC6|skill_desc_magic_s16|Increases Geralt's Yrden Sign intensity by $I$%. Increases elemental damage resistance by $I$%.
+2119878017|B1173FC6|skill_desc_magic_s16|Increases Geralt's Yrden Sign intensity by $I$%. Increases elemental damage resistance by $I$%. Also increases Yrden's damaging effects by $I$%. Slot Bonus: Improves the damaging effect bonus by 1 ability level.
 2119878018|FF5FE15|skill_name_alchemy_s17|Butcher of Blaviken
 2119878019|2A74C610|skill_desc_prev_alchemy_s18|Every known level 1 alchemy formula increases Geralt's maximum Toxicity by 1. Reduces mutagen decoction toxicity by 7.
 2119878020|15DDA91C|skill_desc_alchemy_s18|Every known level 1 alchemy formula increases Geralt's maximum Toxicity by 1. Reduces mutagen decoction toxicity by 7.
