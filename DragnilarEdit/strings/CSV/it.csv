@@ -96,8 +96,8 @@
 2119878093|C84662F5|skill_desc_magic_s12_2|Increases Aard sign intensity by $I$% and adds $I$ Force Damage and $I$ Frost Damage to Aard. Damage bonuses scale with Geralt's level. Slot Bonus: Doubles Aard damage effects.
 2119878094|B1173FC2|skill_desc_magic_s12|Increases Aard sign intensity by $I$% and adds $I$ Force Damage to Aard. Damage bonus scales with Geralt's level. Slot Bonus: Doubles Aard damage effect.
 2119878095|C5548B3C|skill_name_magic_s12|Aard Mastery
-2119878096|B3C8EBBB|skill_name_magic_s6|Blessing Of Air
-2119878097|163A8E75|skill_desc_magic_s6|Increases Geralt's Sign Intensity by $I$%, attack power by $I$%, critical hit damage by $I$%. All enemies resistances are reduced by $I$% to all of Geralt's attacks. Also increases Elemental Damage resistances by $I$%.
+2119878096|B3C8EBBB|skill_name_magic_s6|Piercing Cold
+2119878097|163A8E75|skill_desc_magic_s6|When Geralt casts the Aard Sign, its damage is increased by an additiona $I$ damage (scales with Sign Intensity). Additionaly has a $I$% chance to freeze opponents. Slot Bonus: Opponents knocked down and frozen simultaneously die immediately.
 2119878098|B3C8EBBC|skill_name_magic_s7|Igni Mastery
 2119878099|C5548B40|skill_name_magic_s16|Yrden Mastery
 2119878100|C5548B3F|skill_name_magic_s15|Quen Mastery
