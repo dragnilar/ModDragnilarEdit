@@ -144,6 +144,6 @@
 2119878141|15DDA91D|skill_desc_alchemy_s19|Increases the bonus Geralt receives from mutagens placed in mutagen slots by $I$%. Slot Bonus: Adds additional bonuses for mutagens (Blue increases Stamina Regeneration, Red increases Adrenaline Generation and Green increases Armor).
 2119878142|163A8E72|skill_desc_magic_s3|Geralt creates a concentrated magical trap that emits energy blasts of the 5th Element towards any enemies that come within $I$ yards of it. These blasts inflict $I$ damage (scales with Geralt's level) per hit and also inflicts Yrden's slow effect. The effects are further enhanced by Yrden's Sign Intensity. The trap is also capable of destroying any projectiles that pass through its area of effect.
 2119878143|37615C66|skill_name_mutation_6|Pyromaniac
-2119878144|C3F538A0|skill_desc_mutation_6|Unlocks Geralt's mastery of the power of fire, bestowing the following enhancements: Adds $S$ to Igni's fire damage and it now combusts in a 360 degree radius. Quen is now imbued with the power of fire, granting it a fire shield that deals damage back toa ttacks and deflects arrows.
+2119878144|C3F538A0|skill_desc_mutation_6|Unlocks Geralt's mastery of the power of fire, bestowing the following enhancements: Adds $S$ to Igni's fire damage and it now combusts in a 360 degree radius. Quen is now imbued with the power of fire, granting it a fire shield that deals damage back to attackers and deflects arrows.
 
 
