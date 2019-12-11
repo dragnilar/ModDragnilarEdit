@@ -34,7 +34,6 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		target.AddAbilityMultiple(abilityName, RoundMath(GetWitcherPlayer().GetMaxHealth() * 0.05));
 		FactsAdd("whitewolfactive");
 		buffEntity = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\DragnilarEdit\poisonyrden\whitewolftrigger.w2ent",true), target.GetWorldPosition() );
-		buffEntity.PlayEffect('ability_gryphon_set');
 		buffEntity.PlayEffect('yrden_slowdown');
 		buffEntity.PlayEffect('yrden_slowdown');
 		target.PlayEffect('ability_gryphon_active');
