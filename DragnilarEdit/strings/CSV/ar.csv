@@ -57,7 +57,7 @@
 2119878054|81DDEA3B|item_name_viper_boots_final|White Wolf's Boots
 2119878055|15DDA933|skill_desc_alchemy_s20|Increases Geralt's maximum Vitality by $I$% when Toxicity exceeds the safe threshold. Also increases damage reduction by $I$%. Slot Bonus: Increases damage reduction by 2 levels.
 2119878056|37010020|item_name_infatigable_mutagen|Infatigable Mutagen
-2119878057|95A84526|item_desc_infatigable_mutagen|Powerful Mutagen designed by Geralt himself, in spirit of the Wolf School. White Wolf's invulnerbility duration to 10 seconds. Geralt does not use stamina when jumping or sprinting outside combat.
+2119878057|95A84526|item_desc_infatigable_mutagen|Powerful Mutagen designed by Geralt himself, in spirit of the Wolf School. Increases White Wolf's invulnerbility duration to 10 seconds. In addition, Geralt does not use stamina when jumping or sprinting outside combat.
 2119878058|FC921528|item_desc_mutagen_24|Gain 50% to Attack and Sign Power, +5/s to Stamina regeneration and +25% to Adrenaline gain while health is at 20% or lower. Resets when health is regained and at the end of combat. 10s cooldown.
 2119878059|FC92152B|item_desc_mutagen_27|On casting a sign in combat, increases stamina regeneration by 1% and sign power by 1%, up to a maximum of 50%. The effect lasts for the duration of the decoction or until meditating.
 2119878060|A6838C16|effect_white_wolf|White Wolf
@@ -65,7 +65,7 @@
 2119878062|E88691FE|item_name_solide_mutagen|Solide Mutagen
 2119878063|12FDC138|item_desc_solide_mutagen|Powerful mutagen designed by the Bear School Witchers. Adds 3% damage reduction against all attacks after all other damage reduction is applied.
 2119878064|A6383EDC|item_name_hexer_mutagen|Hexer Mutagen
-2119878065|D0E14062|item_desc_hexer_mutagen|Powerful Mutagen designed by the Gryphon School Witchers. Casting the Axiii sign will inflict 400 damage on an enemy and restore a portion of Geralt's life. Damage and life scales with sign intensity.
+2119878065|D0E14062|item_desc_hexer_mutagen|Powerful Mutagen designed by the Griffon School Witchers. Casting the standard Axiii sign will inflict 400 damage on an enemy and restore vitality based on 1% of the damage inflicted. The damage amount is increased by Geralt's level and Axii Sign intensity.
 2119878066|CEA74413|skill_desc_sword_s13|Time is slowed by an additional $I$% while aiming the crossbow. Also increases Geralts crossbow damage by $I$% (scales with character level). Also increases Geralt's critical hit chance by $I$% and critical hit damage by $I$% with crossbows. Crossbow critical hits also now disable monster special abilities for $I$ seconds. Slot Bonus: Increases attack power and critical hit damage by an additional level.
 2119878067|CEA74418|skill_desc_sword_s18|When Geralt's Vitality reaches 0, it will be restored with a bonus of 25%. Requires at least 1 Adrenaline Point, which will be consumed. Slot Bonus: Adds $I$% damage reduction.
 2119878068|C1E6A9CB|skill_desc_sword_s18_2|When Geralt's Vitality reaches 0, Adrenaline Points will immediately be consumed to restore it, with a bonus of $I$%. The amount restored is based on the number of Adrenaline Points used. If no Adrenaline Points are available, a small portion of Vitality will be restored. Slot Bonus: Adds $I$% damage reduction.
