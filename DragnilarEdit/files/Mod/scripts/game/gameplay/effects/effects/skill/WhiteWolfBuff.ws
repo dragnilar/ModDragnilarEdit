@@ -37,9 +37,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		buffEntity.PlayEffect('ability_gryphon_set');
 		buffEntity.PlayEffect('yrden_slowdown');
 		buffEntity.PlayEffect('yrden_slowdown');
-		//target.PlayEffect('ability_gryphon_active');
-		//target.PlayEffect('yrden_slowdown');
-		//target.PlayEffect('yrden_slowdown');
+		target.PlayEffect('ability_gryphon_active');
 		buffEntity.CreateAttachment(  target );
 	}
 
@@ -47,8 +45,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	{	
 		super.OnEffectRemoved();
 		FactsRemove("whitewolfactive");
-		//target.StopEffect('ability_gryphon_active');
-		//target.StopEffect('yrden_slowdown');
+		target.StopEffect('ability_gryphon_active');;
 		buffEntity.StopAllEffects();
 		buffEntity.DestroyAfter(2);
 		target.RemoveAbilityAll(abilityName);
