@@ -36,7 +36,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		buffEntity = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\DragnilarEdit\poisonyrden\whitewolftrigger.w2ent",true), target.GetWorldPosition() );
 		buffEntity.PlayEffect('yrden_slowdown');
 		buffEntity.PlayEffect('yrden_slowdown');
-		target.PlayEffect('ability_gryphon_active');
+		target.PlayEffect('ability_whitewolf_active');
 		buffEntity.CreateAttachment(  target );
 	}
 
@@ -44,7 +44,6 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	{	
 		super.OnEffectRemoved();
 		FactsRemove("whitewolfactive");
-		target.StopEffect('ability_gryphon_active');;
 		buffEntity.StopAllEffects();
 		buffEntity.DestroyAfter(2);
 		target.RemoveAbilityAll(abilityName);
