@@ -149,5 +149,8 @@
 2119878146|163A8E71|skill_desc_magic_s2|Allows Geralt to use Igni to emit a continuous stream of fire that damages enemies. The damage of the stream scales with Geralt's level. Slot Bonus: The stream produces a beam of intense heat that increases the range of the fire stream and increases the damage by 50%.
 2119878147|71D0C1E4|skill_desc_magic_s2_2|Allows Geralt to use Igni to emit a continuous stream of fire that damages enemies. The damage of the stream scales with Geralt's level. The stamina cost of maintaing the stream is reduced by $I$%.  Slot Bonus: The stream produces a beam of intense heat that increases the range of the fire stream and increases the damage by 100%.
 2119878148|71D0C1E5|skill_desc_magic_s2_3|Allows Geralt to use Igni to emit a continuous stream of fire that damages enemies. The damage of the stream scales with Geralt's level. The stamina cost of maintaing the stream is reduced by $I$%.  Slot Bonus: The stream produces a beam of intense heat that increases the range of the fire stream and increases the damage by 150%.
+2119878149|EFF565CA|item_name_recipe_for_super_mutagen_red|Supreme Red Mutagen Formula
+2119878150|EB02A41|item_name_recipe_for_super_mutagen_blue|Supreme Blue Mutagen Formula
+2119878151|C79E11FC|item_name_recipe_for_super_mutagen_green|Supreme Green Mutagen Formula
 
 
