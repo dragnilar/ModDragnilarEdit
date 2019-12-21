@@ -152,5 +152,9 @@
 2119878149|EFF565CA|item_name_recipe_for_super_mutagen_red|Supreme Red Mutagen Formula
 2119878150|EB02A41|item_name_recipe_for_super_mutagen_blue|Supreme Blue Mutagen Formula
 2119878151|C79E11FC|item_name_recipe_for_super_mutagen_green|Supreme Green Mutagen Formula
+2119878152|163A8E73|skill_desc_magic_s4|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 10 times and ends when combat is over.
+2119878153|71D0C966|skill_desc_magic_s4_2|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Maintaining it drains $I$% less stamina, but stamina lost from blocked attacks remains unchanged. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 20 times and ends when combat is over.
+2119878154|71D0C967|skill_desc_magic_s4_3|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Geralt only loses stamina when he is hit while maintaing the shield. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 30 times and ends when combat is over.
+
 
 
