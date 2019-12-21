@@ -124,7 +124,7 @@
 2119878121|8D17AAA3|skill_desc_alchemy_s8|Increases the maximum number of bombs Geralt can carry by $I$. Slot Bonus: Adds 2 additional levels.
 2119878122|8D17AA9F|skill_desc_alchemy_s4|If Geralt drinks a potion, he has a $I$% chance of activiating the effects of another randomly selected potion, without additional toxicity cost. Slot Bonus: Doubles the duration of the random potion.
 2119878123|329005F1|skill_desc_sword_3|Geralt, being a Witcher of the Wolf School, has been trained in various combat defensive techniques. These range from utilizing a Witcher's sword to deflect arrows and blows, dodging or utilizing one's own body to properly absorb damage.
-2119878124|B1173FC5|skill_desc_magic_s15|Increases Quen Sign Intensity by $I$ and all damage resistances by $I$.
+2119878124|B1173FC5|skill_desc_magic_s15|Increases Geralt's Quen Sign Intensity and reduces stamina drained when Quen is hit by $I$. Also increases all damage resistances by $I$. Slot Bonus: Increases the damage resist bonus by two ability levels.
 2119878125|FA539695|attribute_name_m24_hp_threshold|Cooldown Time
 2119878126|72542EA0|attribute_name_m24_cooldown_time|Vitality Threshold
 2119878127|FC92150A|item_desc_mutagen_15|Adrenaline points are gained more quickly than normal. 
@@ -155,6 +155,6 @@
 2119878152|163A8E73|skill_desc_magic_s4|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 10 times and ends when combat is over.
 2119878153|71D0C966|skill_desc_magic_s4_2|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Maintaining it drains $I$% less stamina, but stamina lost from blocked attacks remains unchanged. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 20 times and ends when combat is over.
 2119878154|71D0C967|skill_desc_magic_s4_3|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Geralt only loses stamina when he is hit while maintaing the shield. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 30 times and ends when combat is over.
-
+2119878155|163A8E74|skill_desc_magic_s5|Allows Geralt to use Axii to make the targeted enemy to become an ally and they deal $I$% more damage. Slot Bonus: If White Wolf is active, the standard version of Axii causes the targeted enemy to be teleported to Geralt (if they are far away) or away from Geralt (if they are near him).
 
 
