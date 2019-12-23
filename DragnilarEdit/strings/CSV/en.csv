@@ -157,5 +157,8 @@
 2119878154|71D0C967|skill_desc_magic_s4_3|Geralt can use Quen to maintain an active shield around himself. While the shield is maintained, it blocks attacks and drains Stamina when hit. Geralt only loses stamina when he is hit while maintaing the shield. Damage absorbed by the shield restores Geralt's Vitality. Slot Bonus: When Geralt is hit, he absorbs the energy of the attack and it increases his attack power by 5% and critical hit damage by 10%. The effect can accumulate up to 30 times and ends when combat is over.
 2119878155|163A8E74|skill_desc_magic_s5|Allows Geralt to use Axii to make the targeted enemy to become an ally and they deal $I$% more damage. Slot Bonus: If White Wolf is active, the standard version of Axii causes the targeted enemy to be teleported to Geralt (if they are far away) or away from Geralt (if they are near him).
 2119878156|E2E48F8F|skill_name_sword_s15|Steel For Humans...
+2119878157|163A8E70|skill_desc_magic_s1|Geralt can use Aard to strike all opponents within a certian radius. The knockdown chance is $I$% lower. Slot Bonus: Maximizes Aard's knockdown potential (applies to both standard and alternate versions of the sign).
+2119878158|71D0BE23|skill_desc_magic_s1_2|Geralt can use Aard to strike all opponents within a certian radius. The knockdown chance is $I$% lower. Slot Bonus: Maximizes Aard's knockdown potential (applies to both standard and alternate versions of the sign).
+2119878159|71D0BE24|skill_desc_magic_s1_3|Geralt can use Aard to strike all opponents within a certian radius. The knockdown chance is $I$% lower. Slot Bonus: Aard will always cause heavy knockdown effects (applies to both standard and alternate versions of Aard).
 
 
