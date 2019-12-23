@@ -3,6 +3,7 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	default effectType = EET_WhiteWolfBuff;
 	default isPositive = true;
 	var buffEntity		:CEntity;
+	var buffEntity2		:CEntity;
 
 	protected function CalculateDuration(optional setInitialDuration : bool)
 	{
@@ -34,11 +35,12 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		target.AddAbilityMultiple(abilityName, RoundMath(GetWitcherPlayer().GetMaxHealth() * 0.05));
 		FactsAdd("whitewolfactive");
 		buffEntity = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\DragnilarEdit\poisonyrden\whitewolftrigger.w2ent",true), target.GetWorldPosition() );
+		buffEntity2 = theGame.CreateEntity( (CEntityTemplate)LoadResource("dlc\DragnilarEdit\poisonyrden\whitewolftrigger.w2ent",true), target.GetWorldPosition() );
 		buffEntity.PlayEffect('yrden_slowdown');
 		buffEntity.PlayEffect('yrden_slowdown');
-		//TODO - This doesn't seem to work, probably needs to be added to Geralt's entity instead of the buff entity.
-		//buffEntity.PlayEffect('ability_whitewolf_active');
-		target.PlayEffect('ability_gryphon_active');
+		buffEntity2.CreateAttachment(target);
+		buffEntity2.PlayEffect('ability_whitewolf_active', thePlayer.GetComponent('torso3effect'));
+		target.PlayEffect('mutation_7_baff');
 		buffEntity.CreateAttachment(  target );
 	}
 
@@ -46,9 +48,11 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 	{	
 		super.OnEffectRemoved();
 		FactsRemove("whitewolfactive");
-		target.StopEffect('ability_gryphon_active');;
+		target.StopEffect('mutation_7_baff');;
 		buffEntity.StopAllEffects();
+		buffEntity2.StopAllEffects();
 		buffEntity.DestroyAfter(2);
+		buffEntity2.DestroyAfter(2);
 		target.RemoveAbilityAll(abilityName);
 		if (thePlayer.IsSkillSlotted(S_Sword_s19))
 			thePlayer.DrainFocus(thePlayer.GetStat(BCS_Focus));
