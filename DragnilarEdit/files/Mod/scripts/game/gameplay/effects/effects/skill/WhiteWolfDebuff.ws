@@ -25,7 +25,7 @@ class W3Effect_WhiteWolfDebuff extends CBaseGameplayEffect
 
 			if(GetWitcherPlayer().IsMutationActive(EPMT_Mutation11))
 			{
-				theGame.GetDefinitionsManager().GetAbilitiesAttributeValue('WhiteWolfMutation', 'debuff_reduce', min, max);
+				theGame.GetDefinitionsManager().GetAbilityAttributeValue('WhiteWolfMutation', 'debuff_reduce', min, max);
 				duration = duration - min.valueAdditive;
 			}
 
