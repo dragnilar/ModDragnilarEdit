@@ -160,5 +160,8 @@
 2119878157|163A8E70|skill_desc_magic_s1|Geralt can use Aard to strike all opponents within a certian radius. The knockdown chance is $I$% lower. Slot Bonus: Maximizes Aard's knockdown potential (applies to both standard and alternate versions of the sign).
 2119878158|71D0BE23|skill_desc_magic_s1_2|Geralt can use Aard to strike all opponents within a certian radius. The knockdown chance is $I$% lower. Slot Bonus: Maximizes Aard's knockdown potential (applies to both standard and alternate versions of the sign).
 2119878159|71D0BE24|skill_desc_magic_s1_3|Geralt can use Aard to strike all opponents within a certian radius. The knockdown chance is $I$% lower. Slot Bonus: Aard will always cause heavy knockdown effects (applies to both standard and alternate versions of Aard).
+2119878160|C3F538A1|skill_desc_mutation_7|At the start of combat, Geralt's sword Attack Power and Sign Intensity increases for $S$ seconds by $S$% for each foe (after the first). So when fighting $S$ foes, the bonus is $S$%. Once it wears off, sword Attack power and Sign Intensity drop by $S$% for each participating foe after the first (modifier cannot exceed $S$). The debuff lasts for $S$ seconds. In addition, if Geralt's Vitality reaches 0, he will become temporarily invulnerble and regenerate $S$% Vitality. The effect can only be triggered every $S$ seconds.
+2119878161|8F1446DA|skill_name_white_wolf_mutation|Legendary White Wolf
+2119878162|EDBB8BE0|skill_desc_white_wolf_mutation|Further advances the power of Geralt's White Wolf ability. Increases the damage multiplier of White Wolf by $S$%. Also when Geralt deals a Brutal Strike, White Wolf's duration is increased by $S$ seconds. Also reduces the cooldown of White Wolf by $S$ seconds.
 
 

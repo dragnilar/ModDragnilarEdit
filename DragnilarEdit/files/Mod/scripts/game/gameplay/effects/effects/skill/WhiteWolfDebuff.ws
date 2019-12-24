@@ -13,12 +13,22 @@ class W3Effect_WhiteWolfDebuff extends CBaseGameplayEffect
 		if( FactsQuerySum( "debug_whitewolf_no_cooldown" ) )
 		{
 			duration = 0.00001f;
-			initialDuration = duration;
 		}
-		else if (GetWitcherPlayer().IsSetBonusActive( EISB_Wolf_2 ))
+		else 
 		{
-			theGame.GetDefinitionsManager().GetAbilityAttributeValue('SetBonusAbilityWolf_2', 'duration', min, max);
-			duration = initialDuration - min.valueAdditive;
+			duration = initialDuration;
+			if (GetWitcherPlayer().IsSetBonusActive( EISB_Wolf_2 ))
+			{
+				theGame.GetDefinitionsManager().GetAbilityAttributeValue('SetBonusAbilityWolf_2', 'duration', min, max);
+				duration = duration - min.valueAdditive;
+			}
+
+			if(GetWitcherPlayer().IsMutationActive(EPMT_Mutation11))
+			{
+				theGame.GetDefinitionsManager().GetAbilitiesAttributeValue('WhiteWolfMutation', 'debuff_reduce', min, max);
+				duration = duration - min.valueAdditive;
+			}
+
 		}
 	}
 	
