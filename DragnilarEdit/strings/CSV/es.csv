@@ -163,5 +163,6 @@
 2119878160|C3F538A1|skill_desc_mutation_7|At the start of combat, Geralt's sword Attack Power and Sign Intensity increases for $S$ seconds by $S$% for each foe (after the first). So when fighting $S$ foes, the bonus is $S$%. Once it wears off, sword Attack power and Sign Intensity drop by $S$% for each participating foe after the first (modifier cannot exceed $S$). The debuff lasts for $S$ seconds. In addition, if Geralt's Vitality reaches 0, he will become temporarily invulnerble and regenerate $S$% Vitality. The effect can only be triggered every $S$ seconds.
 2119878161|8F1446DA|skill_name_white_wolf_mutation|Legendary White Wolf
 2119878162|EDBB8BE0|skill_desc_white_wolf_mutation|Further advances the power of Geralt's White Wolf ability. Increases the damage multiplier of White Wolf by $S$%. Also when Geralt deals a Brutal Strike, White Wolf's duration is increased by $S$ seconds. Also reduces the cooldown of White Wolf by $S$ seconds.
+2119878163|8D17AA9E|skill_desc_alchemy_s3|Each potion that Geralt drinks will heal $I$% of his Vitality. Slot Bonus: Increases the amount healed by two Ability levels. Drinking a potion will also remove all negative side effects from Geralt.
 
 
