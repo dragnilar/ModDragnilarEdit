@@ -170,5 +170,7 @@
 2119878167|8D17AA9F|skill_desc_alchemy_s4|If Geralt's Toxicity value is above 0, his Vitality Regeneration is increased by $I$. This effect applies both in and outside of combat. The vitality regeneration from this ability will be lost when his Toxicity falls back to 0. Slot Bonus: If Toxicity is above 0, all damage that Geralt receives will be reduced by $I$%. 
 2119878168|15DDA91A|skill_desc_alchemy_s16|If Geralt's Toxicity value is above 0, time automatically slows down for $I$ seconds at a ratio of $I$% when an enemy is about to perform a counter attack. His Brutal Strike chance is also increased by $I$%. Slot Bonus: Increases the Brutal Strike chance bonus by an additional ability level.
 2119878169|15DDA919|skill_desc_alchemy_s15|Geralt's Toxicity drops $I$ point(s) per second faster. In addition, his Poison Resistance is increased by $I$%. Slot Bonus: Geralt's Poison Resistance is further increased by $I$%.
+2119878170|8D17AAA1|skill_desc_alchemy_s6|Geralt's blade oils last $I$% longer when applied to his swords. Slot Bonus: Geralt can have $I$ blade oils applied to a single sword.
+2119878171|A5D79215|skill_desc_alchemy_s6_3|Geralt's blade oils last until he applies a new one over any that are currently applied to a sword. Slot Bonus: Geralt can have $I$ blade oils applied to a single sword.
 
 
