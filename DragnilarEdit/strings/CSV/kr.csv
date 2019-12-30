@@ -168,5 +168,6 @@
 2119878165|83CE64|skill_name_alchemy_s3|Side Effects
 2119878166|83CE65|skill_name_alchemy_s4|Condensation
 2119878167|8D17AA9F|skill_desc_alchemy_s4|If Geralt's Toxicity value is above 0, his Vitality Regeneration is increased by $I$. This effect applies both in and outside of combat. The vitality regeneration from this ability will be lost when his Toxicity falls back to 0. Slot Bonus: If Toxicity is above 0, all damage that Geralt receives will be reduced by $I$%. 
+2119878168|15DDA919|skill_desc_alchemy_s15|If Geralt's Toxicity value is above 0, time automatically slows down for $I$ seconds at a ratio of $I$% when an enemy is about to perform a counter attack. His Brutal Strike chance is also increased by $I$%. Slot Bonus: Increases the Brutal Strike chance bonus by an additional ability level.
 
 
