@@ -170,8 +170,8 @@
 2119878167|8D17AA9F|skill_desc_alchemy_s4|If Geralt's Toxicity value is above 0, his Vitality Regeneration is increased by $I$. This effect applies both in and outside of combat. The vitality regeneration from this ability will be lost when his Toxicity falls back to 0. Slot Bonus: If Toxicity is above 0, all damage that Geralt receives will be reduced by $I$%. 
 2119878168|15DDA91A|skill_desc_alchemy_s16|If Geralt's Toxicity value is above 0, time automatically slows down for $I$ seconds at a ratio of $I$% when an enemy is about to perform a counter attack. His Brutal Strike chance is also increased by $I$%. Slot Bonus: Increases the Brutal Strike chance bonus by an additional ability level.
 2119878169|15DDA919|skill_desc_alchemy_s15|Geralt's Toxicity drops $I$ point(s) per second faster. In addition, his Poison Resistance is increased by $I$%. Slot Bonus: Geralt's Poison Resistance is further increased by $I$%.
-2119878170|8D17AAA1|skill_desc_alchemy_s6|Geralt's blade oils last $I$% longer when applied to his swords. Slot Bonus: Geralt can have $I$ blade oils applied to a single sword.
-2119878171|A5D79215|skill_desc_alchemy_s6_3|Geralt's blade oils last until he applies a new one over any that are currently applied to a sword. Slot Bonus: Geralt can have $I$ blade oils applied to a single sword.
+2119878170|8D17AAA1|skill_desc_alchemy_s6|Geralt's blade oils last $I$% longer when applied to his swords. Slot Bonus: Geralt can have 3 blade oils applied to a single sword.
+2119878171|A5D79215|skill_desc_alchemy_s6_3|Geralt's blade oils last until he applies a new one over any that are currently applied to a sword. Slot Bonus: Geralt can have 3 blade oils applied to a single sword.
 2119878172|8D17AAA4|skill_desc_alchemy_s9|When Geralt is aiming a bomb, time is slowed by further by $I$%. Slot bonus: Geralt is able to throw bombs without any delay and bomb damage is increased by $I$%.
 2119878173|163A8E77|skill_desc_magic_s8|When Geralt deals damage with Igni, he will also permenantly damage enemies Armor and Resistances. The effect scales with sign intensity up to a maximum of $I$%. Slot Bonus: Increases the maximum potential of Melt Armor by 1 ability level.
 2119878174|6813D109|item_name_recipe_for_infatigable_mutagen|Infatigable Mutagen Formula
@@ -179,5 +179,6 @@
 2119878176|E503285|item_name_recipe_for_hexer_mutagen|Hexer Mutagen Formula
 2119878177|77A902F6|item_name_recipe_for_repere_mutagen|Repere Mutagen Formula
 2119878178|864C7957|item_name_recipe_for_rogue_mutagen|Rogue Mutagen Formula
+2119878179|15DDA914|skill_desc_alchemy_s10|All of Geralt's bombs now inflict an additional +$I$ damage, in addition to their normal effects (scales with Geralt's level). Slot Bonus: Increases the damage bonus by two ability levels.
 
 

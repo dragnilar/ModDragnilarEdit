@@ -37,7 +37,6 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		target.PlayEffect('yrden_slowdown');
 		target.PlayEffect('ability_gryphon_active');
 		target.PlayEffect('mutation_7_baff');
-		buffEntity.CreateAttachment(  target );
 	}
 
 	event OnEffectRemoved()
