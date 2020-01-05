@@ -174,5 +174,10 @@
 2119878171|A5D79215|skill_desc_alchemy_s6_3|Geralt's blade oils last until he applies a new one over any that are currently applied to a sword. Slot Bonus: Geralt can have $I$ blade oils applied to a single sword.
 2119878172|8D17AAA4|skill_desc_alchemy_s9|When Geralt is aiming a bomb, time is slowed by further by $I$%. Slot bonus: Geralt is able to throw bombs without any delay and bomb damage is increased by $I$%.
 2119878173|163A8E77|skill_desc_magic_s8|When Geralt deals damage with Igni, he will also permenantly damage enemies Armor and Resistances. The effect scales with sign intensity up to a maximum of $I$%. Slot Bonus: Increases the maximum potential of Melt Armor by 1 ability level.
+2119878174|6813D109|item_name_recipe_for_infatigable_mutagen|Infatigable Mutagen Formula
+2119878175|836D1375|item_name_recipe_for_solide_mutagen|Solide Mutagen Formula
+2119878176|E503285|item_name_recipe_for_hexer_mutagen|Hexer Mutagen Formula
+2119878177|77A902F6|item_name_recipe_for_repere_mutagen|Repere Mutagen Formula
+2119878178|864C7957|item_name_recipe_for_rogue_mutagen|Rogue Mutagen Formula
 
 
