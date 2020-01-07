@@ -2,13 +2,14 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 {
 	default effectType = EET_WhiteWolfBuff;
 	default isPositive = true;
-
+	var effectEntity : CEntity;
+		
 	protected function CalculateDuration(optional setInitialDuration : bool)
 	{
 		var durationBonus : float;
 		var min, max : SAbilityAttributeValue;
 		var witcher : W3PlayerWitcher;
-		
+
 		super.CalculateDuration( setInitialDuration );
 		
 		if (thePlayer.GetSkillLevel(S_Sword_s19) > 1)
@@ -34,9 +35,11 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		FactsAdd("whitewolfactive");
 		target.PlayEffect('yrden_slowdown');
 		target.PlayEffect('yrden_slowdown');
-		target.PlayEffect('yrden_slowdown');
 		target.PlayEffect('ability_gryphon_active');
 		target.PlayEffect('mutation_7_baff');
+		effectEntity = theGame.CreateEntity((CEntityTemplate)LoadResource("dlc\dragnilaredit\poisonyrden\whitewolftrigger.w2ent", true), target.GetWorldPosition());
+		effectEntity.PlayEffect('yrden_slowdown');
+		effectEntity.CreateAttachment(target);
 	}
 
 	event OnEffectRemoved()
@@ -46,6 +49,8 @@ class W3Effect_WhiteWolfBuff extends CBaseGameplayEffect
 		target.StopEffect('ability_gryphon_active');
 		target.StopEffect('mutation_7_baff');
 		target.StopEffect('yrden_slowdown');
+		effectEntity.StopAllEffects();
+		effectEntity.DestroyAfter(2);
 		target.RemoveAbilityAll(abilityName);
 		if (thePlayer.IsSkillSlotted(S_Sword_s19))
 			thePlayer.DrainFocus(thePlayer.GetStat(BCS_Focus));
