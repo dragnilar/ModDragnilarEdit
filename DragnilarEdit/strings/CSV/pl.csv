@@ -182,5 +182,7 @@
 2119878179|15DDA914|skill_desc_alchemy_s10|All of Geralt's bombs now inflict an additional +$I$ damage, in addition to their normal effects (scales with Geralt's level). Slot Bonus: Increases the damage bonus by two ability levels.
 2119878180|329005F3|skill_desc_sword_5|Geralt is a legendary Witcher, perhaps the greatest of all. One of his secrets is that he has perfect the ability to channel his adrenaline in combat and use it to enhance his prowess which in turn can be used to unlock his underlying hidden powers. This technique is called Battle Trance, which by itself allows Geralt to accumulate Adrenaline Points. Each point increases weapon damage by $I$% and critical hit damage by $I$%.
 2119878181|FF5FE13|skill_name_alchemy_s15|Altered Metabolism
+2119878182|DD7AFA8C|skill_name_perk_12|Wolf School Techniques
+2119878183|754D1892|skill_desc_perk_12|Each piece of medium armor increases fast and strong attack damage by $I$% and sign intensity by $I$%.
 
 
