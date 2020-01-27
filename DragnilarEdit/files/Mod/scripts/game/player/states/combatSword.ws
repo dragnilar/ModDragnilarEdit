@@ -1235,6 +1235,7 @@ state CombatSword in W3PlayerWitcher extends Combat
 		if (thePlayer.IsSkillSlotted(S_Sword_s02) && thePlayer.HasBuff(EET_WhiteWolfBuff))
 		{
 			YrdenSword();
+			//YrdenSwordWave();
 		}
 	}
 
@@ -1301,6 +1302,91 @@ state CombatSword in W3PlayerWitcher extends Combat
 			effect.DestroyAfter(3);
 		}
 
+	}
+
+	public function YrdenSwordWave()
+	{
+		var entities : array<CGameplayEntity>;
+		var shootposition : Vector;
+		var aard_wave : W3TraceGroundProjectile;
+		var victims  : array<CActor>;
+		var i : int;
+		var action : W3DamageAction;
+		var damage_proj : float;
+		var spellpower, powerMod, rendBonus : SAbilityAttributeValue;
+		var slowEffect : SCustomEffectParams;
+		var weaponId : SItemUniqueId;
+		var actorVictim : CNewNPC;
+		var aerondight : W3Effect_Aerondight;
+		var victim : CNewNPC;
+		var slow : SCustomEffectParams;
+		var entity 	: CGameplayEntity;
+
+		shootposition = thePlayer.GetWorldPosition() + thePlayer.GetHeadingVector() * 1.5;
+		FindGameplayEntitiesInCone(entities, shootposition, VecHeading(thePlayer.GetHeadingVector()), 60, 11, 100);
+		for( i = 0; i < entities.Size(); i += 1 )   
+		{
+			entity = entities[i]; 
+			entity.OnAardHit( NULL );
+		}
+		aard_wave = (W3TraceGroundProjectile)theGame.CreateEntity( (CEntityTemplate) LoadResource( "dlc\adtomes\swordeffects\giant_shockwave_proj.w2ent",true ), 
+			shootposition, thePlayer.GetWorldRotation());
+		aard_wave.PlayEffect('yrden');
+		aard_wave.DestroyAfter(7);
+			
+		victims = thePlayer.GetNPCsAndPlayersInCone(11, VecHeading(thePlayer.GetHeadingVector()), 60, 20, , FLAG_Attitude_Hostile + FLAG_OnlyAliveActors);
+
+		for( i = 0; i < victims.Size(); i += 1 )
+		{
+			//Dragnilar - Unfortunately this is slightly different from the Yrden Sword line effect. I still don't like this since it's duplicate code.
+			spellpower = GetWitcherPlayer().GetTotalSignSpellPower(S_Magic_3);
+			powerMod = GetWitcherPlayer().GetPowerStatValue(CPS_AttackPower);
+			weaponId = GetWitcherPlayer().inv.GetCurrentlyHeldSword();
+			rendBonus = GetWitcherPlayer().GetSkillAttributeValue(S_Sword_s02, 'adrenaline_final_damage_bonus', false, false) * GetWitcherPlayer().GetSkillLevel(S_Sword_s02);
+			damage_proj = GetWitcherPlayer().GetTotalWeaponDamage(weaponId, 'SlashingDamage', GetInvalidUniqueId());
+			damage_proj += GetWitcherPlayer().GetTotalWeaponDamage(weaponId, 'SilverDamage', GetInvalidUniqueId());
+			damage_proj *= powerMod.valueMultiplicative;
+			damage_proj *= spellpower.valueMultiplicative;
+			damage_proj *= rendBonus.valueMultiplicative;
+			damage_proj *= 2; //Dragnilar - Arbitrary amount...
+
+		    if(GetWitcherPlayer().IsUsingAerondight())
+			{
+				aerondight = (W3Effect_Aerondight)thePlayer.GetBuff( EET_Aerondight );
+				damage_proj *= aerondight.GetAerondightLevel();
+			}
+			if(GetWitcherPlayer().IsMutationActive(EPMT_Mutation11))
+			{
+				damage_proj *= 1.5;
+			}
+		
+			victim = (CNewNPC)victims[i];
+			slow.effectType = EET_Slowdown;
+			slow.creator = thePlayer;
+			slow.sourceName = thePlayer.GetName();
+			slow.duration = CalculateAttributeValue((spellpower), 2)*0.4;
+			slow.customPowerStatValue = GetWitcherPlayer().GetTotalSignSpellPower(S_Magic_3);
+			slow.effectValue.valueAdditive = 0.01 + (0.99 - 0.01) * slow.customPowerStatValue.valueMultiplicative / 5;
+			slow.effectValue.valueAdditive = ClampF( slow.effectValue.valueAdditive, 0.01, 0.99 );				
+			victim.AddEffectCustom(slow);
+			action =  new W3DamageAction in this;
+			action.Initialize(thePlayer,victim,this,thePlayer.GetName()+"_sign",EHRT_Heavy,CPS_AttackPower,true,true,false,false );
+			action.AddDamage( theGame.params.DAMAGE_NAME_DIRECT, damage_proj);
+			action.SetProcessBuffsIfNoDamage(true);
+			action.SetCanPlayHitParticle(false);
+			action.SetIgnoreArmor(true);
+			action.SetCannotReturnDamage(true);
+			action.SetForceExplosionDismemberment();
+			action.SetHitReactionType(EHRT_Heavy);
+			action.SetHitAnimationPlayType(EAHA_ForceYes);
+			action.AddEffectInfo( EET_HeavyKnockdown );
+			theGame.damageMgr.ProcessAction( action );
+			delete action;
+			if(damage_proj>0)
+			{	
+				victim.PlayEffect('yrden_shock');  
+			}
+		}
 	}
 	
 }		
